@@ -4,64 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="shortcut icon" href="../images/Patricia Muñoz (1).png" type="image/x-icon">
+    <title>Sesiones</title>
+
+    <link rel="shortcut icon" href="../images/faviconPM.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">
 </head>
-<body>
-
-    <header id="arriba"> <!--encabezado-->
-        <h1>Patricia Muñoz</h1>
 
 
-    </header>
-    <nav> <!-- menu de navegacion-->
-        <ul> <!-- unorder list -->
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="about.html">Sobre mi</a></li> <!-- list item -->
-            <li><a href="sesiones.html">Sesiones</a></li>
-            <li>Contacto</li>
-            <li><a href="pregFrec.html">Preguntas frecuentes</a></li>
-        </ul>
-    </nav>
-    <h1>Contacto</h1>
+<body class="body">
+    <div class="Div_contacto">
+        <header class="header_About"> <!--encabezado-->
+            <div class="TamanioIcono">
+                <img src="../images/icono.svg" alt="icono cristales" class="Icono">
+            </div>
+            <div class="TamanioA">
+                <a href="../index.html" >
+                    <img src="../images/header1.svg" alt="header" id="PosicionNombre">
+                </a>
+            </div>
+            <div class="redes_header" >
+                <div class="PositionInst">
+                    <a href="instagram.com" id="aInsta" >
+                        <img src="../images/icons8-instagram-48.svg" alt="icon instagram" id="IconInst"> 
+                    </a>
+                </div>
+                <div class="PositionWsp">
+                    <a href="web.whatsapp.com/">
+                        <img src="../images/icon wsp.svg" alt="icon whatsapp" class="IconWsp">
+                    </a>
+                </div>
+                <div class="PositionTeleg">
+                    <a href="telegram.com">
+                        <img src="../images/icon telegram.svg" alt="telegram icon" class="IconTelg">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav class="All_nav navAbout"> <!-- menu de navegacion-->
+            <ul> <!-- unorder list -->
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre mi</a></li> <!-- list item -->
+                <li><a href="sesiones.html">Sesiones</a></li>
+                <li>Contacto</li>
+                <li><a href="pregFrec.html">Preguntas frecuentes</a></li>
+            </ul>
+        </nav>
 
-    <form action="">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre Apellido">
-        <br>
-        <label for="mail">Correo:</label>
-        <input type="email" name="mail" id="mail" placeholder="tumail@---.com">
-        <br>
-        <!-- boton -->
-        <input type="submit" value="Enviar formulario">
-    </form>
 
-    <h2>informacion</h2>
-    <p>mail: patricia@gmail.com</p>
-    <p>celular: 2215051472</p>
+        <section id="EstiloF">
+            <div id="Info">
+                <h2 class="h2_contacto">CONTACTAME:</h2>
+            <p class="p_contacto">mail: patricia@gmail.com</p>
+            <p class="p_contacto">celular: 2215051472</p>
+            </div>
+        </section>
+        
+        <footer class="AllFooter FooterAbout"> 
+            <!--pie de pagina-->
+            <div class="Sobre_footer">
+                <h3 class="estiloh3">about</h3>
+                
+                <a href="pages/about.html" class="link_footer">sobre mi</a></li>
+                <a href="pages/pregFrec.html" class="link_footer">Preguntas frecuentes</a></li>
+                
+            </div>
+            <div class="Sesiones_Footer">
+                <h3 class="estiloh3">sesiones</h3>
+                <p>tameana</p>
+                <p>ti.ta</p>
+            </div>
+            <div class="Contacto_footer">
+                <h3 class="estiloh3">contacto</h3>
+                <p>patriciamo54@gmail.com</p>
+                <p>2215051472</p>
+                <p>La Plata, Buenos Aires, ARG.</p>
+            </div>
+            
+        </footer>
+        <div class="copyright">
+            <p class="right">2023 All right reserved. Made by NahirF</p>
+        </div>
 
-    <br>
-    <a href=""></a>
-    <footer> <hr>
-        <!--pie de pagina-->
-        <h3>about</h3>
-        <a href="pages/about.html">sobre mi</a>
-        <a href="pages/pregFrec.html">Preguntas frecuentes</a>
-        <br>
-        <h3>sesiones</h3>
-        <p>tameana</p>
-        <p>ti.ta</p>
-        <br>
-        <h3>contacto</h3>
-        <p>patriciamo54@gmail.com</p>
-        <p>2215051472</p>
-        <link rel="stylesheet" href="">
-        <p>La Plata, Buenos Aires, ARG.</p>
-
-        <br>
-        <p>2023 All right reserved. Made by NahirF</p>
-    </footer>
-
+    </div>
 </body>
 </html>

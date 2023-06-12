@@ -4,15 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preguntas frecuentes</title>
-    <link rel="shortcut icon" href="../images/Patricia Muñoz (1).png" type="image/x-icon">
+    <title>Sesiones</title>
+
+    <link rel="shortcut icon" href="../images/faviconPM.svg" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap" rel="stylesheet">
+
+
 </head>
-<body>
-    <header>
-        <h1> Patricia Muñoz</h1>
+
+
+<body class="body container-fluid">
+    <header class="Header_Boots row col-sm-12 col-md-12" > <!--encabezado-->
+        <div class="Logo_Boots col-sm-6 col-md-2">
+            <img src="../images/icono.svg" alt="icono cristales" class="Icono_Boots">
+        </div>
+        <div class="Tamanio_Boots d-none d-sm-none d-md-block col-md-8">
+            <a href="../index.html" >
+                <img src="../images/header-Giaza.svg" alt="header" id="PosNombre_Boots">
+            </a>
+        </div>
+        <div class="redes_Boots col-sm-6 col-md-2">
+            <div class="PositionInst_Boots">
+                <a href="instagram.com" id="aInsta_Boots" >
+                    <img src="../images/icons8-instagram-48.svg" alt="icon instagram" id="IconInst_Boots"> 
+                </a>
+            </div>
+            <div class="PositionWsp_Boots">
+                <a href="web.whatsapp.com/">
+                    <img src="../images/icon wsp.svg" alt="icon whatsapp" class="IconWsp_Boots">
+                </a>
+            </div>
+            <div class="PositionTeleg_Boots">
+                <a href="telegram.com">
+                    <img src="../images/icon telegram.svg" alt="telegram icon" class="IconTelg_Boots">
+                </a>
+            </div>
+        </div>
     </header>
-    <nav> <!-- menu de navegacion-->
+
+
+    <nav class="All_nav row col-sm-12 col-md-12" > <!-- menu de navegacion-->
         <ul> <!-- unorder list -->
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="about.html">Sobre mi</a></li> <!-- list item -->
@@ -21,6 +68,85 @@
             <li>Preguntas frecuentes</li>
         </ul>
     </nav>
-    <h1>Preguntas frecuentes</h1>
+    <main class="EstiloPreg row ">
+        <section class="Background_preguntas col-sm-12 col-md-12">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"     aria-controls="collapseOne">
+                            ¿Con qué frecuencia se hacen las sesiones?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <P>Las sesiones se realizan normalmente cada 4 días dependiendo la necesidad de cada persona, además de que el código de cada sesion puede requerir sesiones de 3 días seguidos pero no es en todos los casos</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"       aria-controls="collapseTwo">
+                        ¿Qué debo sentir durante la sesion?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p> Las sensaciones son distintas en cada persona, algunas pueden no sentir nada pero con el correr de los dias sentirse mejor, con mas energia o mas liberados; otros pueden sentir muchas cosas en una misma sesion, como puede ser dolores, ganas de llorar, pensamientos o recuerdos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Debo tener musica durante la sesion?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Se aconseja mejor no tener nada, ya que por el tiempo de la sesion no debe usar celulares ni ningun tipo de electronico estimulante, aunque podria poner una cancion muy tranquila, alguna melodia que acompañe pero no algo muy fuerte. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            ¿Con que forma de pago puedo abonar la sesion?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Tanto para sesiones presenciales como a distancia, se puede abonar en efectivo o transferencia bancaria/mercado pago :) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="Footer_Boots row "> 
+        <!--pie de pagina-->
+        <div class="SobreFooter_Boots col-sm-12 col-md-4">
+            <h3 class="estiloh3_Boots">SOBRE MI</h3>
+            
+            <a href="pages/about.html" class="link_Boots">sobre mi</a></li>
+            <a href="pages/pregFrec.html" class="link_Boots">Preguntas frecuentes</a></li>
+            
+        </div>
+        <div class="Sesiones_Boots col-sm-12 col-md-4">
+            <h3 class="estiloh3_Boots">SESIONES</h3>
+            <p>tameana</p>
+            <p>ti.ta</p>
+        </div>
+        <div class="Contacto_Boots col-sm-12 col-md-4">
+            <h3 class="estiloh3_Boots">CONTACTO</h3>
+            <p>patriciamo54@gmail.com</p>
+            <p>2215051472</p>
+            <p>La Plata, Buenos Aires, ARG.</p>
+        </div>
+        
+    </footer>
+    <div class="copyright_Boots row col-sm-12 col-md-12">
+        <p class="right_B">2023 All right reserved. Made by NahirF</p>
+    </div>
 </body>
 </html>

@@ -1,0 +1,976 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BODY */
+.body{
+    background-color: #c77dff;
+}
+
+
+
+
+/* ---- */
+/* MAIN */
+
+main {
+    width: 100%;
+    display: inline;
+}
+
+
+.Principal{
+    width: 1349px;
+    height: 550px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Images_main{
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.ImgMed1{
+    width: 315px;
+    height: 414px;
+    position: relative;
+    bottom: 34px;
+    left: 39px;
+}
+.ImgMed2{
+    width: 236px;
+    height: 236px;
+    position: relative;
+    top: 131px;
+    left: 65px;
+}
+
+.PositionB{
+    width: 512px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.EstiloB{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-size: 44px;
+    color: white;
+}
+
+.EstiloP {
+    width: 479px;
+    height: 50px;
+    text-align: center;
+    font-family: revert;
+    font-size: 17px;
+}
+
+
+/* ---- */
+/* AGENDA TU SESION */
+.Agenda{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: rgb(231, 226, 226);
+    border: solid 3px #540977;
+    background-color: #b67fdb;
+    height: 39px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* ---- */
+/* AFIRMACION + SPOTIFY */
+.Afir_spotify{ 
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Div_afirmacion{
+    text-align: center;
+    background-color: #9d4edd;
+    color: white;
+    width: 400px;
+    height: 347px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.H3_afirmacion{
+    font-size: 25px;
+    font-family: 'Playfair Display';
+}
+.afirmacion{
+    font-size: 16px;
+}
+
+
+.ImgSpirit{
+    width: 350px;
+    height: 350px;
+}
+
+
+.DivSpotity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+}
+
+
+.Spotify{
+    color: white;
+    font-family: 'Raleway';
+
+}
+
+
+/* ---- */
+/* INFO */
+.SobreImg{
+    background-color: #acff90d1;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.Sobremi{
+    text-align: center;
+    width: 800px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_sobre{
+    width: 596px;
+}
+
+.button_Sobre{
+    color: #090909;
+    margin-top: 12px;
+    width: 97px;
+    height: 36px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    border-radius: 2.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+
+}
+
+button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+}
+
+.posicionImgS{
+    width: 465px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+.ImgSobreMi{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/* ---- */
+/* INFO */
+.SesionesImg{
+    background-color: #d695fb85;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Posicion_Imgses{
+    width: 479px;
+    margin: 0;
+    padding: 0;
+}
+.ImgSesiones{
+    width: 400px;
+    height: 400px;
+}
+.Sesiones_Inicio{
+    text-align: center;
+    width: 843px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ----- */
+/* LINKS */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* -------- */
+/* INSTAGRAM */
+.sec_instagram{
+    background-color: #90f76ec9;
+}
+.Instagram_texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 116px;
+}
+.TextInst{
+    font-family: revert;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.Fotos{
+    width: 224.8px ;
+    height: auto;
+    padding: 0;
+}
+
+
+
+
+/* -------- */
+/* NSLETTER */
+.SectNews {
+    
+    width: 100%;
+    height: 260px;
+}
+
+#iconimage{
+    justify-content: left;
+    display: inline-block;
+    background-color: #952CAF;
+    width:250px ;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+#Proceso{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+#newsletter{
+    background-color: #952CAF;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.ButtonEnv {
+    display: block;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 46%;
+}
+
+#VolverA{
+    color: white;
+    font-size: medium;
+    margin-left: 150px;
+}
+
+.ArribaV{
+    color: white;
+    font-size: medium;
+}
+
+
+/* -------------------------------------------------------- */
+/* GRID ABOUT*/
+.divTtal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.4fr 0.1fr 1fr 1fr 1fr 0.3fr 0.02fr;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "pres pres pres"
+    "expl expl expl"
+    "hist hist hist"
+    "footer footer footer"
+    "copyr copyr copyr";
+
+}
+
+.navAbout{
+    grid-area: nav;
+    height: 50px ;
+    font-size: 17px;
+}
+.PresentAbout{
+    grid-area: pres;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b181dd;
+}
+.ExplicacionAbout{
+    grid-area: expl;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ba67cf;
+}
+.HistoriaAbout{
+    grid-area: hist;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.EstiloSobre{
+    color: white;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+
+.FooterAbout{
+    grid-area: footer;
+}
+.copyright{
+    grid-area: copyr;
+    display: flex;
+    justify-content: center;
+    background-color: #952CAF;
+    color: white;
+}
+
+/* -------------------------------------------------------- */
+/* SOBRE MI */
+/* Presentacion */
+.EstiloTextoSobreM{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Noto Serif', serif;
+
+}
+
+#TextPresentacion{
+    text-align: center;
+    width: 504px;
+    margin-left: 235px;
+
+}
+#ImgPresentacion{
+    width: 380px ;
+    height: 380px;
+} 
+/* Explicacion */
+
+#ImgExplicacion{
+    width: 380px;
+    height: 380px;
+}
+#TextExplicacion{
+    text-align: center;
+    width: 621px;
+    margin-left: 159px;
+}
+/* Historia */
+#TextHistoria{
+    display: inline-block;
+    text-align: center;
+    width: 668px;
+    margin-left: 131px;
+}
+#ImgHistoria{
+    width: 380px ;
+    height: 380px;
+}
+
+
+/* RESPONSIVE -SOBRE MI- */
+/* -tamaño mobile */
+@media screen and (max-width: 500px) {
+    .divTtal{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.15fr 2fr 2.5fr 2.3fr 1.3fr 0.09fr;
+        grid-template-areas:
+        "header"
+        "pres"
+        "expl"
+        "hist"
+        "footer"
+        "copyr";
+    }
+
+    
+    .TamanioA{
+        display: none
+    }
+    .header_About{
+        display: flex;
+        justify-content: flex-end;
+        height: 247px;
+        background-color: #c77dff;
+    }
+    .Icono{
+        width: 236px;
+        height: 169px;
+    }
+    .redes_header{
+        display: none;
+    }
+    .navAbout{
+        display: none;
+    }
+    .PresentAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    #TextPresentacion{
+        margin-left: 0;
+        background-color: #b67fdb;
+        width: 1179px;
+        font-size: 35px;
+        line-height: 1.5;
+        color: white;
+        height: 400px;
+        padding-top: 51px;
+        padding-left: 49px;
+        font-family: sans-serif;
+        padding-right: 43px;
+    }
+    
+    .H3_presentacion{
+        font-size: xxx-large;
+        background-color: #b67fdb;
+        color: white;
+    }
+
+    #ImgPresentacion{
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .ExplicacionAbout{
+        display: flex;
+        background-color: #c77dff;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    #TextExplicacion{
+        background-color: #35e95fba;
+        margin-left: 0px;
+        color: white;
+        width: 1179px;
+        height: 549px;
+        font-size: 33px;
+        padding-right: 37px;
+        padding-left: 39px;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .H3_explicacion {
+        color: white;
+        font-size: 57px;
+        padding-right: 35px;
+    }
+
+    #ImgExplicacion{
+        width: 1182px;    
+        height: auto;    
+        margin-top: 3px;
+    }
+
+
+    .HistoriaAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #TextHistoria{
+        margin-left: 0px;
+        background-color: violet;
+        font-family: sans-serif;
+        font-size: 33px;
+        width: 1120px;
+        height: 428px;
+    }
+
+    .H3_historia{
+        font-size: 53px
+    }
+
+    #ImgHistoria{
+        width: 1100px;
+        height: auto;
+    }
+
+    .FooterAbout{
+        display: flex;
+        flex-direction: column;
+        height: 913px;
+        justify-content: space-evenly;
+        line-height: 1.5;
+        padding-top: 38px;
+        text-align: center;
+
+    }
+    .estiloh3{
+        font-size: 32px;
+    }
+    .Sobre_footer{
+        line-height: 1.3;
+        width: 569px;
+        height: 181px;
+    }
+    .link_footer{
+        font-size: 46px;
+    }
+
+    .Sesiones_Footer{
+        font-size: 46px;
+        line-height: 1.3;
+        width: 574px;
+        height: 181px;
+        text-align: center;
+    }
+
+    .Contacto_footer{
+        padding-top: 0;
+        line-height: 1.5;
+        font-size: 46px;
+    }
+
+    .copyright{
+        font-size: 32px;
+        font-family: math;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------- */
+/* SESIONES */
+.TameanaImg{
+    background-color: #acff90d1;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#Tameana{
+    text-align: center;
+    width: 800px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p_sesiones{
+    width: 596px;
+    font-size: 16px;
+}
+.posicionImgS{
+    width: 465px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+#ImgTameana{
+    width: 400px ;
+    height: auto;
+}
+.EstiloTexto{
+    font-family: 'Raleway';
+    font-size: 36px;
+    color: white;
+}
+
+
+.TinakImg{
+    background-color: #d695fb85;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Tinak{
+    text-align: center;
+    width: 843px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Posicion_Imgses{
+    width: 479px;
+}
+#ImgTinak{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/* -------------------------------------------------------- */
+/* CONTACTO */
+#EstiloF{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Info{
+    background-color: #acff90c7;
+    width: 550px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 37px;
+
+}
+.h2_contacto{
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 590.5;
+}
+.p_contacto{
+    font-size: 22px;
+    font-family: 'Raleway';
+    color: black;
+}
+
+
+
+/* ----------------------------------------------------- */
+/* PREG. FRECUENTES */
+.EstiloPreg{
+    width: 100%;
+    height: 510px;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.Background_preguntas{
+    width: 700px;
+    height: 350px;
+}
+
+.accordion{
+    --bs-accordion-active-bg: #952caf5e;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-color: white
+}
+
+/* ----------------------------- */
+
+p{
+    margin-bottom: 0;
+}
+
+/* -------------------------------------------------------------------- */
+/* COMPARTIDOS */
+/* HEADER */
+
+.header_About {
+    grid-area: header;
+    background-color: #2e0747;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TamanioA{
+    width: 814px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icono {
+    width: 110px;
+    height: 110px;
+}
+
+.redes_header{
+    display: flex;
+    align-items: center;
+    width: 139px;
+    justify-content: space-around;
+}
+
+#IconInst{
+    width: 35px;
+    height: 35px;
+}
+
+
+.IconWsp{
+    width: 30px;
+    height: 30px;
+}
+.IconTelg {
+    width: 42px;
+    height: 42px;
+}
+
+/* ---------------------------- */
+/* BOOTSTRAP-PREGUNTAS FRECUENTES */
+.Header_Boots{
+    background-color: #47126b;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1349px;
+}
+
+.Logo_Boots {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    align-content: center;
+    justify-content: flex-start;
+    width: auto;
+}
+.Icono_Boots {
+    width: 100px;
+    height: 100px;
+}
+
+.Tamanio_Boots{
+    width: 863px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#PosNombre_Boots{
+    width: 781px;
+    padding-left: 131px;
+}
+
+.redes_Boots{
+    width: 195px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#aInsta_Boots{
+    width: 10px;
+    display: inline-block;
+}
+.PositionInst_Boots{
+    width: 51px;
+    display: inline-block;
+    
+}
+
+#IconInst_Boots{
+    width: 35px;
+    height: 35px;
+}
+
+.PositionWsp_Boots{
+    width: 45px;
+}
+.IconWsp_Boots{
+    width: 30px;
+    height: 30px;
+}
+
+.IconTelg_Boots {
+    width: 42px;
+    height: 42px;
+}
+.PositionTeleg_Boots{
+    width: 45px;
+}
+/* --- */
+/* FOOTER */
+.Footer_Boots{
+    background-color: #952CAF;
+    width: 1349px;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    line-height: 167%;
+    font-weight: 600;
+    padding-bottom: 22px;
+    align-content: center;
+
+}
+.estiloh3_Boots{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.SobreFooter_Boots{
+    display: flex;
+    flex-direction: column;
+    width: 199.27px;
+    height: 74px;
+    margin-left: 49px;
+}
+.link_Boots{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.Sesiones_Boots{
+    display: flex;
+    flex-direction: column;
+    width: 139px;
+}
+.Contacto_Boots{
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+
+}
+.copyright_Boots{
+    display: flex;
+    background-color: #952CAF;
+    color: white;
+    width: 1349px;
+    justify-content: center;
+}
+.right_B{
+    width: 336px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+/* ---- */
+
+/* NAV*/
+.All_nav{ 
+    background-color: purple;
+    width: 1349px;
+}
+
+ul { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+ul li {
+    
+    display: inline-block;
+    color: white;
+    text-align: justify;
+    
+    padding: 15px;
+}
+
+li a {
+    color: white
+    
+}
+
+
+/* FOOTER */
+.AllFooter{
+    background-color: #952CAF;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 53px;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    line-height: 167%;
+    font-weight: 600;
+}
+.estiloh3{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Sobre_footer{
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+}
+.Sesiones_Footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contacto_footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.link_footer{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
