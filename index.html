@@ -29,69 +29,104 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <!-- inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!-- zilla slab -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body class="body container-fluid" > <!-- contenido del sitio -->
     <!--ETIQUETAS SEMANTICAS-->
-    <header class= "Header_Boots row col-sm-12 col-md-12"> <!--encabezado-->
-        <div class= "Logo_Boots col-sm-6 col-md-2">
-            <img src="images/icono.svg" alt="icono cristales" class="Icono_Boots">
-        </div>
-        <div class="Tamanio_Boots d-none d-sm-none d-md-block col-md-8">
-            <a href="index.html" >
-                <img src="images/header-Giaza.svg" alt="header" id="PosNombre_Boots">
-            </a>
-        </div>
-        <div class="redes_Boots col-sm-6 col-md-2">
-            <div class="PositionInst_Boots">
-                <a href="instagram.com" id="aInsta_Boots" >
-                    <img src="images/icons8-instagram-48.svg" alt="icon instagram" id="IconInst_Boots"> 
+    <div class="inicio">
+        <nav class="navBoots row col-sm-12 col-md-12"> <!-- menu de navegacion-->
+            <ul > <!-- unorder list -->
+                <li>INICIO</li>
+                <li><a href="pages/about.html">SOBRE MI</a></li> <!-- list item -->
+                <li><a href="pages/sesiones.html">SESIONES</a></li>
+                <li><a href="pages/contacto.html">CONTACTO</a></li>
+                <li><a href="pages/pregFrec.html">PREGUNTAS FRECUENTES</a></li>
+            </ul>
+        </nav>
+        
+        <header class= "Header_Boots row col-sm-12 col-md-12"> <!--encabezado-->
+            <div class= "Logo_Boots col-sm-6 col-md-2">
+                <img src="images/icono.svg" alt="icono cristales" class="Icono_Boots">
+            </div>
+            <div class="Tamanio_Boots d-sm-none d-md-none d-lg-block col-lg-8">
+                <a href="index.html" >
+                    <img src="images/header-Giaza.svg" alt="header" id="PosNombre_Boots">
                 </a>
             </div>
-            <div class="PositionWsp_Boots">
-                <a href="web.whatsapp.com/">
-                    <img src="images/icon wsp.svg" alt="icon whatsapp" class="IconWsp_Boots">
-                </a>
+            <div class="redes_Boots col-sm-6 col-md-2">
+                <div class="PositionInst_Boots">
+                    <a href="instagram.com" id="aInsta_Boots" >
+                        <img src="images/icons8-instagram-48.svg" alt="icon instagram" id="IconInst_Boots"> 
+                    </a>
+                </div>
+                <div class="PositionWsp_Boots">
+                    <a href="web.whatsapp.com/">
+                        <img src="images/icon wsp.svg" alt="icon whatsapp" class="IconWsp_Boots">
+                    </a>
+                </div>
+                <div class="PositionTeleg_Boots">
+                    <a href="telegram.com">
+                        <img src="images/icon telegram.svg" alt="telegram icon" class="IconTelg_Boots">
+                    </a>
+                </div>
             </div>
-            <div class="PositionTeleg_Boots">
-                <a href="telegram.com">
-                    <img src="images/icon telegram.svg" alt="telegram icon" class="IconTelg_Boots">
-                </a>
+        </header>
+
+
+
+        <main> <!--contenido ppal-->
+            <!-- imagen -->
+            <div class="Principal row">
+                <div class=" Images_main col-sm-12 col-md-6">
+                    <img src="images/MeditacionF.jpg" alt="" class="ImgMed2 ">
+                    <img src="images/MeditationA.png" alt="" class="ImgMed1" >
+                </div>
+                <div class="PositionB col-sm-12 col-md-6">
+                    <h2 class="EstiloB">¡Bienvenida!</h2>
+                    <p class="EstiloP">Te doy la bienvenida! Aquí podrás encontrar informacion sobre mi y de cada sesion que hago. Si te interesa, en Contacto encontrarás mi informacion de contacto, ademas de poder dejar tu numero y ser contactada para mas informacion o agendar una sesion. :) </p>
+                </div>
             </div>
-        </div>
-    </header>
 
+        </main>
+    </div>
 
-    <nav class="All_nav row col-sm-12 col-md-12"> <!-- menu de navegacion-->
-        <ul> <!-- unorder list -->
-            <li>Inicio</li>
-            <li><a href="pages/about.html">Sobre mi</a></li> <!-- list item -->
-            <li><a href="pages/sesiones.html">Sesiones</a></li>
-            <li><a href="pages/contacto.html">Contacto</a></li>
-            <li><a href="pages/pregFrec.html">Preguntas frecuentes</a></li>
-        </ul>
-    </nav>
-
-
-    <main> <!--contenido ppal-->
-        <!-- imagen -->
-        <div class="Principal row">
-            <div class=" Images_main col-sm-12 col-md-6">
-                <img src="images/MeditacionF.jpg" alt="" class="ImgMed2 ">
-                <img src="images/MeditationA.png" alt="" class="ImgMed1" >
-            </div>
-            <div class="PositionB col-sm-12 col-md-6">
-                <h2 class="EstiloB">¡Bienvenida!</h2>
-                <p class="EstiloP">Te doy la bienvenida! Aquí podrás encontrar informacion sobre mi y de cada sesion que hago. Si te interesa, en Contacto encontrarás mi informacion de contacto, ademas de poder dejar tu numero y ser contactada para mas informacion o agendar una sesion. :) </p>
-            </div>
-        </div>
-
-    </main>
-
-    <section class="row">
-        <p class="Agenda col-sm-12 col-md-12">✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones.</p>
+    <section class="agenda-container row">
+        <p class="Agenda col-sm-12 col-md-12">✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda tus sesiones✨Agenda</p>
     </section>
 
+
+
+    <section class="SobreImg row">
+        <div class="Sobremi col-sm-12 col-md-8">
+            <h3>-SOBRE MI-</h3>
+            <p class="p_sobre">Aqui vas a encontrar informacion sobre mi para conocerme y saber un poquito más de quien está detras de las sesiones.</p>
+            <button class="button_Sobre">
+                <a class="abt-btn" href="pages/about.html">sobre mi</a>
+            </button>
+        </div>
+        <div class="posicionImgS">
+            <img src="images/ISobremi.jpg" alt="" class="ImgSobreMi col-sm-12 col-md-4">
+        </div>
+    </section>
+
+    
     <section class="row Afir_spotify">
         <!--seccion del contenido-->
         <!--subseccion del contenido-->
@@ -108,29 +143,15 @@
         </div>
     </section>
 
-    
-    <section class="SobreImg row">
-        <div class="Sobremi col-sm-12 col-md-8">
-            <h3>-SOBRE MI-</h3>
-            <p class="p_sobre">Aqui vas a encontrar informacion sobre mi para conocerme y saber un poquito más de quien está detras de las sesiones.</p>
-            <button class="button_Sobre">
-                <a class="abt-btn" href="pages/about.html">sobre mi</a>
-            </button>
-        </div>
-        <div class="posicionImgS">
-            <img src="images/ISobremi.jpg" alt="" class="ImgSobreMi col-sm-12 col-md-4">
-        </div>
-    </section>
-    
     <section class="SesionesImg row">
-        <div class="Posicion_Imgses">
+        <div class="Img_sesiones">
             <img src="images/InSesiones.png" alt="" class="ImgSesiones col-sm-12 col-md-4">
         </div>
         <div class="Sesiones_Inicio col-sm-12 col-md-8">
             <h3>-SESIONES-</h3>
             <p class="p_sobre">Presentacion sobre las sesiones que hago, un poco de informacion para conocer bien que es y que beneficios tiene cada una. </p>
             <button class="button_Sobre">
-                <a class="abt-btn" href="pages/about.html">Sesiones</a>
+                <a class="abt-btn" href="pages/about.html">sesiones</a>
             </button>
         </div>
     </section>
@@ -138,62 +159,31 @@
     <section class="sec_instagram row">
         <div class="Instagram_texto col-sm-12 col-md-12">
             <p class="TextInst">NO TE PIERDAS LOS NUEVOS POST DE INSTAGRAM</p>
-            <a href="#">@patricia</a>
         </div>
     </section>
     
-    <section class=" row">
+    <section class="secInst row">
         <img src="images/instagram1.jpg" alt="" class="Fotos col-sm-6 col-md-2">
         <img src="images/instagram2.jpg" alt="" class="Fotos col-sm-6 col-md-2">
-        <img src="images/instagram3.jpg" alt="" class="Fotos col-md-2">
-        <img src="images/instagram4.png" alt="" class="Fotos col-md-2">
-        <img src="images/instagram5.jpg" alt="" class="Fotos col-md-2">
-        <img src="images/instagram6.png" alt="" class="Fotos col-md-2">
+        <img src="images/instagram3.jpg" alt="" class="Fotos  foto500 col-md-2">
+        <img src="images/instagram4.png" alt="" class="Fotos  foto500 col-md-2">
+        <img src="images/instagram5.jpg" alt="" class="Fotos foto1349 col-md-2">
+        <img src="images/instagram6.png" alt="" class="Fotos   foto1349 col-md-2">
     </section>
-    
-    
-    <!-- <section class="SectNews">
-        
-        <img src="images/icono.svg" alt="" id="iconimage">
-        
-        <img src="images/proceso.svg" alt="" id="Proceso">
-        <article id="newsletter">
-            <h4>newsletter</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dignissimos vel.</p>
-            <form action="">
-                <label for="nombre"></label>
-                <input type="text" name="nombre" id="nombre">
-                <label for="mail"></label>
-                <input type="email" name="mail" id="mail">
-
-                <button type="submit" class="ButtonEnv">Enviar</button>
-            </form>
-        </article>
-    </section>
-    -->
-
 
     
 
     <footer class="Footer_Boots row"> 
         <!--pie de pagina-->
-        <div class="SobreFooter_Boots col-sm-12 col-md-4">
-            <h3 class="estiloh3_Boots">about</h3>
-            
-            <a href="pages/about.html" class="link_Boots">sobre mi</a></li>
-            <a href="pages/pregFrec.html" class="link_Boots">Preguntas frecuentes</a></li>
-            
+        <div class="SobreFooter_Boots col-sm-12 col-md-6">
+            <a href="pages/about.html" class="link_Boots">SOBRE MI</a></li>
+            <a href="pages/sesiones.html" class="link_Boots">SESIONES</a></li>
+            <a href="pages/pregFrec.html" class="link_Boots">Q&A</a></li>
         </div>
-        <div class="Sesiones_Boots col-sm-12 col-md-4">
-            <h3 class="estiloh3_Boots">sesiones</h3>
-            <p>tameana</p>
-            <p>ti.ta</p>
-        </div>
-        <div class="Contacto_Boots col-sm-12 col-md-4">
-            <h3 class="estiloh3_Boots">contacto</h3>
-            <p>patriciamo54@gmail.com</p>
+        <div class="Sesiones_Boots col-sm-12 col-md-6">
+            <p>PATRICIAMO54@GMAIL.COM</p>
             <p>2215051472</p>
-            <p>La Plata, Buenos Aires, ARG.</p>
+            <p>LA PLATA, BS.AS</p>
         </div>
         
     </footer>

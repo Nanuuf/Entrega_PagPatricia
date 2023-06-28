@@ -6,6 +6,9 @@
 /* BODY */
 .body{
     background-color: #c77dff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -688,12 +691,12 @@ a {
 /* ----------------------------------------------------- */
 /* PREG. FRECUENTES */
 .EstiloPreg{
-    width: 100%;
     height: 510px;
     color: white;
     display: flex;
     align-content: center;
     justify-content: center;
+    margin: 0;
 }
 
 .Background_preguntas{
@@ -720,7 +723,6 @@ p{
 .header_About {
     grid-area: header;
     background-color: #2e0747;
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -768,7 +770,7 @@ p{
     height: 130px;
     display: flex;
     justify-content: space-evenly;
-    width: 1349px;
+    margin: 0;
 }
 
 .Logo_Boots {
@@ -785,15 +787,11 @@ p{
 }
 
 .Tamanio_Boots{
-    width: 863px;
     height: 130px;
+    width: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#PosNombre_Boots{
-    width: 781px;
-    padding-left: 131px;
 }
 
 .redes_Boots{
@@ -834,11 +832,12 @@ p{
 .PositionTeleg_Boots{
     width: 45px;
 }
+
 /* --- */
 /* FOOTER */
 .Footer_Boots{
     background-color: #952CAF;
-    width: 1349px;
+    width: 100%;
     height: 180px;
     display: flex;
     justify-content: space-evenly;
@@ -849,6 +848,7 @@ p{
     font-weight: 600;
     padding-bottom: 22px;
     align-content: center;
+    margin: 0;
 
 }
 .estiloh3_Boots{
@@ -887,8 +887,8 @@ p{
     display: flex;
     background-color: #952CAF;
     color: white;
-    width: 1349px;
     justify-content: center;
+    margin: 0;
 }
 .right_B{
     width: 336px;
@@ -906,7 +906,7 @@ p{
 /* NAV*/
 .All_nav{ 
     background-color: purple;
-    width: 1349px;
+    margin: 0;
 }
 
 ul { 
@@ -936,7 +936,6 @@ li a {
 /* FOOTER */
 .AllFooter{
     background-color: #952CAF;
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
