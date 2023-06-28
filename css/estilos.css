@@ -5,7 +5,7 @@
 }
 /* BODY */
 .body{
-    background-color: #c77dff;
+    background-color: white;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -17,72 +17,80 @@
 /* ---- */
 /* MAIN */
 
+
+
 main {
     width: 100%;
     display: inline;
 }
 
-
+.inicio{
+    background-image: url(../images/fondoInicio1.svg);
+    background-size: cover;
+}
 .Principal{
-    width: 1349px;
-    height: 550px;
+    width: 100%;
+    height: 600px;
     display: flex;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    margin: 0;
 }
 
 .Images_main{
-    height: 550px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding: 0;
+    align-items: flex-end;
 }
 
 .ImgMed1{
     width: 315px;
     height: 414px;
     position: relative;
-    bottom: 34px;
-    left: 39px;
-}
-.ImgMed2{
-    width: 236px;
-    height: 236px;
-    position: relative;
-    top: 131px;
-    left: 65px;
+    bottom: 62px;
 }
 
+.ImgMed2{
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: 17px;
+}
+
+
 .PositionB{
-    width: 512px;
-    height: 276px;
+    width: 436px;
+    height: 264px;
     display: flex;
     flex-direction: column;
+    padding: 0;
     justify-content: center;
-    align-items: center;
 }
+
 .EstiloB{
     font-family: 'Playfair Display', serif;
     margin: 0;
-    font-size: 44px;
-    color: white;
+    font-size: 70px;
+    color: #4E1662;
+    font-weight: 700;
 }
 
 .EstiloP {
-    width: 479px;
-    height: 50px;
-    text-align: center;
-    font-family: revert;
-    font-size: 17px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
-/* ---- */
 /* AGENDA TU SESION */
+.agenda-container{
+    width: 100%;
+    margin: 0;
+}
 .Agenda{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Raleway';
     font-weight: bold;
-    font-size: small;
+    font-size: 13px;
     color: rgb(231, 226, 226);
     border: solid 3px #540977;
     background-color: #b67fdb;
@@ -90,77 +98,31 @@ main {
     margin: 0;
     display: flex;
     align-items: center;
-}
-
-/* ---- */
-/* AFIRMACION + SPOTIFY */
-.Afir_spotify{ 
-    height: 400px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.Div_afirmacion{
-    text-align: center;
-    background-color: #9d4edd;
-    color: white;
-    width: 400px;
-    height: 347px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
 }
-.H3_afirmacion{
-    font-size: 25px;
-    font-family: 'Playfair Display';
-}
-.afirmacion{
-    font-size: 16px;
-}
 
 
-.ImgSpirit{
-    width: 350px;
-    height: 350px;
-}
-
-
-.DivSpotity{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px;
-    height: 250px;
-}
-
-
-.Spotify{
-    color: white;
-    font-family: 'Raleway';
-
-}
-
-
-/* ---- */
 /* INFO */
 .SobreImg{
-    background-color: #acff90d1;
-    height: 400px;
+    width: 100%;
+    height: 450px;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../images/fondoInicio2.png);
 }
 .Sobremi{
     text-align: center;
-    width: 800px ;
+    width: 40% ;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .p_sobre{
-    width: 596px;
+    width: 441px;
 }
 
 .button_Sobre{
@@ -194,18 +156,73 @@ button:active {
 }
 
 
+/* ---- */
+/* AFIRMACION + SPOTIFY */
+.Afir_spotify{ 
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Div_afirmacion{
+    text-align: center;
+    background-color: #9d4edd;
+    color: white;
+    width: 30%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.H3_afirmacion{
+    font-size: 25px;
+    font-family: 'Playfair Display';
+}
+.afirmacion{
+    font-size: 16px;
+}
+
+
+.ImgSpirit{
+    width: 30%;
+    height: auto;
+}
+
+
+.DivSpotity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 250px;
+}
+
+
+.Spotify{
+    color: white;
+    font-family: 'Raleway';
+
+}
+
 
 /* ---- */
 /* INFO */
 .SesionesImg{
-    background-color: #d695fb85;
-    height: 400px;
+    width: 100%;
+    height: 450px;
+    margin: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-image: url(../images/fondoInicio3.png);
+
 }
-.Posicion_Imgses{
-    width: 479px;
+
+.Img_sesiones{
+    width: 461px;
     margin: 0;
     padding: 0;
 }
@@ -214,97 +231,72 @@ button:active {
     height: 400px;
 }
 .Sesiones_Inicio{
-    text-align: center;
-    width: 843px;
+    text-align: start;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-
-
-/* ----- */
-/* LINKS */
-a {
-    text-decoration: none;
-    color: black;
-}
 
 /* -------- */
 /* INSTAGRAM */
 .sec_instagram{
     background-color: #90f76ec9;
+    width: 100%;
+    margin: 0;
+    height: 84px;
 }
 .Instagram_texto{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 116px;
 }
 .TextInst{
-    font-family: revert;
+    font-family: 'Zilla Slab', serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
 }
 
+.secInst{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
 .Fotos{
-    width: 224.8px ;
+    width: 16.6% ;
     height: auto;
     padding: 0;
 }
 
+@media screen and (max-width: 1300px ){
+    .Principal{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .ImgMed2{
+        width: 225px;
+        height: auto;
+        top: 50px;
+    }
 
+    .ImgMed1{
+        width: 305px;
+        height: auto;
+        position: initial;
+    }
 
-
-/* -------- */
-/* NSLETTER */
-.SectNews {
-    
-    width: 100%;
-    height: 260px;
+    .PositionB{
+        width: 40%;
+    }
+    .EstiloP{
+        width: 85%;
+    }
 }
 
-#iconimage{
-    justify-content: left;
-    display: inline-block;
-    background-color: #952CAF;
-    width:250px ;
-    height: 250px;
-    margin-left: 30px;
-    margin-right: 5px;
-}
-#Proceso{
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-}
-#newsletter{
-    background-color: #952CAF;
-    display: inline-block;
-    text-align: center;
-    margin-left: 15px;
-}
-
-.ButtonEnv {
-    display: block;
-    align-items: center;
-    margin-top: 5px;
-    margin-left: 46%;
-}
-
-#VolverA{
-    color: white;
-    font-size: medium;
-    margin-left: 150px;
-}
-
-.ArribaV{
-    color: white;
-    font-size: medium;
-}
 
 
 /* -------------------------------------------------------- */
@@ -312,10 +304,10 @@ a {
 .divTtal{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.4fr 0.1fr 1fr 1fr 1fr 0.3fr 0.02fr;
+    grid-template-rows: 0.1fr 0.3fr 1.30fr 1.30fr 1.25fr 0.52fr 0.0624fr;
     grid-template-areas: 
-    "header header header"
     "nav nav nav"
+    "header header header"
     "pres pres pres"
     "expl expl expl"
     "hist hist hist"
@@ -324,86 +316,100 @@ a {
 
 }
 
-.navAbout{
-    grid-area: nav;
-    height: 50px ;
-    font-size: 17px;
+/* -------------------------------------------------------- */
+/* SOBRE MI */
+.EstiloSobre{
+    color: white;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 150.969%;
+    letter-spacing: 0.5px;
+
 }
+
+.Estiloh3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 4.68px;
+    line-height: 1.5;
+}
+
+
+/* Presentacion */
 .PresentAbout{
     grid-area: pres;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #b181dd;
-}
-.ExplicacionAbout{
-    grid-area: expl;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #ba67cf;
-}
-.HistoriaAbout{
-    grid-area: hist;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.EstiloSobre{
-    color: white;
-    line-height: 1.5;
-    font-size: 17px;
-}
-
-
-.FooterAbout{
-    grid-area: footer;
-}
-.copyright{
-    grid-area: copyr;
-    display: flex;
     justify-content: center;
-    background-color: #952CAF;
-    color: white;
+    align-items: center;
+    background-image: url(../images/fondoSobre1.svg);
+    background-size: cover ;
 }
-
-/* -------------------------------------------------------- */
-/* SOBRE MI */
-/* Presentacion */
-.EstiloTextoSobreM{
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-family: 'Noto Serif', serif;
-
-}
-
 #TextPresentacion{
     text-align: center;
     width: 504px;
-    margin-left: 235px;
 
 }
-#ImgPresentacion{
-    width: 380px ;
-    height: 380px;
+.imgpresentacion{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#TamanioimgPrese{
+    width: 400px ;
+    height: 400px;
 } 
-/* Explicacion */
 
+/* Explicacion */
+.ExplicacionAbout{
+    grid-area: expl;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../images/fondoSobre2.png);
+}
 #ImgExplicacion{
     width: 380px;
     height: 380px;
 }
+.Estiloh3Negro{
+    color: black;
+    font-size: 30px;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 4.68px;
+    line-height: 1.5;
+}
+.EstiloSobreNegro{
+    color: black;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 150.969%;
+    letter-spacing: 0.5px;
+}
+
 #TextExplicacion{
     text-align: center;
     width: 621px;
-    margin-left: 159px;
 }
+
 /* Historia */
+.HistoriaAbout{
+    grid-area: hist;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../images/fondoSobre3.svg);
+    background-size: cover;
+}
+
 #TextHistoria{
     display: inline-block;
     text-align: center;
     width: 668px;
-    margin-left: 131px;
 }
 #ImgHistoria{
     width: 380px ;
@@ -411,192 +417,44 @@ a {
 }
 
 
-/* RESPONSIVE -SOBRE MI- */
-/* -tamaño mobile */
-@media screen and (max-width: 500px) {
-    .divTtal{
-        width: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.15fr 2fr 2.5fr 2.3fr 1.3fr 0.09fr;
-        grid-template-areas:
-        "header"
-        "pres"
-        "expl"
-        "hist"
-        "footer"
-        "copyr";
-    }
-
-    
-    .TamanioA{
-        display: none
-    }
-    .header_About{
-        display: flex;
-        justify-content: flex-end;
-        height: 247px;
-        background-color: #c77dff;
-    }
-    .Icono{
-        width: 236px;
-        height: 169px;
-    }
-    .redes_header{
-        display: none;
-    }
-    .navAbout{
-        display: none;
-    }
-    .PresentAbout{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-    #TextPresentacion{
-        margin-left: 0;
-        background-color: #b67fdb;
-        width: 1179px;
-        font-size: 35px;
-        line-height: 1.5;
-        color: white;
-        height: 400px;
-        padding-top: 51px;
-        padding-left: 49px;
-        font-family: sans-serif;
-        padding-right: 43px;
-    }
-    
-    .H3_presentacion{
-        font-size: xxx-large;
-        background-color: #b67fdb;
-        color: white;
-    }
-
-    #ImgPresentacion{
-        width: 1000px;
-        height: 1000px;
-    }
-
-    .ExplicacionAbout{
-        display: flex;
-        background-color: #c77dff;
-        flex-direction: column-reverse;
-        justify-content: flex-end;
-    }
-
-    #TextExplicacion{
-        background-color: #35e95fba;
-        margin-left: 0px;
-        color: white;
-        width: 1179px;
-        height: 549px;
-        font-size: 33px;
-        padding-right: 37px;
-        padding-left: 39px;
-        font-family: sans-serif;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-
-    .H3_explicacion {
-        color: white;
-        font-size: 57px;
-        padding-right: 35px;
-    }
-
-    #ImgExplicacion{
-        width: 1182px;    
-        height: auto;    
-        margin-top: 3px;
-    }
-
-
-    .HistoriaAbout{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    #TextHistoria{
-        margin-left: 0px;
-        background-color: violet;
-        font-family: sans-serif;
-        font-size: 33px;
-        width: 1120px;
-        height: 428px;
-    }
-
-    .H3_historia{
-        font-size: 53px
-    }
-
-    #ImgHistoria{
-        width: 1100px;
-        height: auto;
-    }
-
-    .FooterAbout{
-        display: flex;
-        flex-direction: column;
-        height: 913px;
-        justify-content: space-evenly;
-        line-height: 1.5;
-        padding-top: 38px;
-        text-align: center;
-
-    }
-    .estiloh3{
-        font-size: 32px;
-    }
-    .Sobre_footer{
-        line-height: 1.3;
-        width: 569px;
-        height: 181px;
-    }
-    .link_footer{
-        font-size: 46px;
-    }
-
-    .Sesiones_Footer{
-        font-size: 46px;
-        line-height: 1.3;
-        width: 574px;
-        height: 181px;
-        text-align: center;
-    }
-
-    .Contacto_footer{
-        padding-top: 0;
-        line-height: 1.5;
-        font-size: 46px;
-    }
-
-    .copyright{
-        font-size: 32px;
-        font-family: math;
-        display: flex;
-        align-items: center;
-    }
-
-
-
+/* -------------------------------------------------------- */
+/* SESIONES  GRID*/
+.Div_Sesiones{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.3fr 0.3fr 1fr 1.5fr 0.52fr 0.0624fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "en en en"
+    "tam tam tam"
+    "tinak tinak tinak"
+    "footer footer footer"
+    "copyr copyr copyr";
 }
 
 
-
-
-
-
-
-
 /* -------------------------------------------------------- */
-/* SESIONES */
-.TameanaImg{
-    background-color: #acff90d1;
-    height: 400px;
+.conoce{
+    grid-area: en;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: #C77DFF;
+}
+.textoconoce{
+    width: 439px;
+    text-align: center;
+}
+
+.TameanaImg{
+    grid-area: tam;
+    background-image: url(../images/fondoSesiones1.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 #Tameana{
     text-align: center;
@@ -604,58 +462,95 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
-.p_sesiones{
-    width: 596px;
+.p_tameana{
+    width: 649px;
+    height: 100px;
     font-size: 16px;
+    font-family: 'Inter';
+    text-align: start;
 }
-.posicionImgS{
-    width: 465px;
-    display: flex;
-    justify-content: flex-end;
+.p_tinak{
+    width: 567px;
+    font-size: 16px;
+    font-family: 'Inter';
+    text-align: end;
+}
+
+.posicionImgSesiones{
+    
     padding: 0;
 }
 #ImgTameana{
-    width: 400px ;
+    width: 360px ;
     height: auto;
 }
+
 .EstiloTexto{
-    font-family: 'Raleway';
-    font-size: 36px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5.2px;
     color: white;
+    font-weight: 400;
 }
 
 
 .TinakImg{
-    background-color: #d695fb85;
-    height: 400px;
+    grid-area: tinak;
+    background-image: url(../images/fondoSesiones2.svg);
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 #Tinak{
     text-align: center;
-    width: 843px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end
+    ;
 }
 
-.Posicion_Imgses{
-    width: 479px;
-}
 #ImgTinak{
-    width: 400px;
-    height: 400px;
+    width: 360px;
+    height: auto;
 }
 
 
 
 /* -------------------------------------------------------- */
+/* GRID */
+.Div_contacto{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 0.1fr 0.3fr 0.3fr 0.5fr 0.5fr 0.50fr 0.0624fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "conta conta conta"
+    "info info info"
+    "gif gif gif"
+    "footer footer footer"
+    "copyr copyr copyr";
+}
 /* CONTACTO */
+.contact{
+    grid-area: conta ;
+    background-color: #C77DFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.h2contacto{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    color: white;
+}
 #EstiloF{
+    grid-area: info;
     width: 100%;
     height: 400px;
     display: flex;
@@ -675,15 +570,23 @@ a {
     line-height: 37px;
 
 }
-.h2_contacto{
-    font-size: 30px;
-    font-family: 'Raleway';
-    font-weight: 590.5;
-}
+
 .p_contacto{
-    font-size: 22px;
-    font-family: 'Raleway';
+    font-size: 31px;
+    font-family: 'Oswald';
     color: black;
+    font-weight: 400;
+}
+
+.gif{
+    grid-area: gif;
+    position: absolute;
+}
+.tamaniogif{
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top: 108px;
 }
 
 
@@ -691,12 +594,13 @@ a {
 /* ----------------------------------------------------- */
 /* PREG. FRECUENTES */
 .EstiloPreg{
-    height: 510px;
+    height: 500px;
     color: white;
     display: flex;
     align-content: center;
     justify-content: center;
     margin: 0;
+    background-image: url(../images/fondoPreguntas.png);
 }
 
 .Background_preguntas{
@@ -717,60 +621,28 @@ p{
 }
 
 /* -------------------------------------------------------------------- */
-/* COMPARTIDOS */
-/* HEADER */
+/* COMPARTIDOS BOOTS */
 
-.header_About {
-    grid-area: header;
-    background-color: #2e0747;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
+/* NAV */
 
-.TamanioA{
-    width: 814px;
+.navBoots{
+    height: 46px;
+    background-color: #C77DFF;
     display: flex;
     align-items: center;
-    justify-content: center;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 200;
+    margin: 0;
 }
 
-.Icono {
-    width: 110px;
-    height: 110px;
-}
-
-.redes_header{
-    display: flex;
-    align-items: center;
-    width: 139px;
-    justify-content: space-around;
-}
-
-#IconInst{
-    width: 35px;
-    height: 35px;
-}
-
-
-.IconWsp{
-    width: 30px;
-    height: 30px;
-}
-.IconTelg {
-    width: 42px;
-    height: 42px;
-}
-
-/* ---------------------------- */
-/* BOOTSTRAP-PREGUNTAS FRECUENTES */
-.Header_Boots{
-    background-color: #47126b;
+.Header_Boots{ 
     height: 130px;
     display: flex;
     justify-content: space-evenly;
     margin: 0;
+    background-color: #C77DFF;
 }
 
 .Logo_Boots {
@@ -788,7 +660,7 @@ p{
 
 .Tamanio_Boots{
     height: 130px;
-    width: 650px;
+    width: 592px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -833,143 +705,718 @@ p{
     width: 45px;
 }
 
-/* --- */
 /* FOOTER */
 .Footer_Boots{
-    background-color: #952CAF;
+    background-color: #C859FF;
     width: 100%;
-    height: 180px;
+    height: 200px;
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
-    color: rgb(0, 0, 0);
-    font-family: 'Raleway', sans-serif;
-    line-height: 167%;
-    font-weight: 600;
-    padding-bottom: 22px;
     align-content: center;
+    color: white;
+    line-height: 167%;
     margin: 0;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3.12px;
 
 }
-.estiloh3_Boots{
-    color: rgb(255, 255, 255);
-    font-size: 19px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-}
+
 .SobreFooter_Boots{
     display: flex;
     flex-direction: column;
     width: 199.27px;
     height: 74px;
-    margin-left: 49px;
+    
 }
 .link_Boots{
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     display: block;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    letter-spacing: 3.12px;
 }
 
 .Sesiones_Boots{
     display: flex;
     flex-direction: column;
-    width: 139px;
+    width: auto;
 }
-.Contacto_Boots{
-    display: flex;
-    flex-direction: column;
-    width: 259px;
 
-}
 .copyright_Boots{
     display: flex;
-    background-color: #952CAF;
+    background-color: #C859FF;
     color: white;
     justify-content: center;
     margin: 0;
 }
 .right_B{
-    width: 336px;
-    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 350;
 }
 
 
-
-
-
-
-
-/* ---- */
-
-/* NAV*/
-.All_nav{ 
-    background-color: purple;
-    margin: 0;
+/* LINKS */
+a {
+    text-decoration: none;
+    color: black;
 }
 
 ul { 
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style-type: none;
-    color: white;
-    flex-wrap: wrap;
     margin-bottom: 0;
+    width: 100%;
 }
-ul li {
-    
-    display: inline-block;
-    color: white;
-    text-align: justify;
-    
-    padding: 15px;
-}
-
 li a {
     color: white
     
 }
 
 
-/* FOOTER */
-.AllFooter{
-    background-color: #952CAF;
+
+
+
+/* COMPARTIDOS GRID --------------------------------------------------*/
+/* NAV - HEADER */
+.navGrids{
+    grid-area: nav;
+    height: 40px;
+    background-color: #C77DFF;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 200;
+    margin: 0;
+}
+
+.headerGrids {
+    grid-area: header;
+    height: 130px;
+    background-color: #C77DFF;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-bottom: 53px;
-    color: rgb(0, 0, 0);
-    font-family: 'Raleway', sans-serif;
+}
+.TamanioA{
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Icono {
+    width: 100px;
+    height: 110px;
+}
+
+.redes_header{
+    display: flex;
+    align-items: center;
+    width: 139px;
+    justify-content: space-around;
+}
+
+#IconInst{
+    width: 35px;
+    height: 35px;
+}
+
+.IconWsp{
+    width: 30px;
+    height: 30px;
+}
+.IconTelg {
+    width: 42px;
+    height: 42px;
+}
+
+
+/* FOOTER GRIDS */
+.AllFooter{
+    grid-area: footer;
+    background-color: #C859FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
     line-height: 167%;
-    font-weight: 600;
+    letter-spacing: 3.12px;
 }
-.estiloh3{
-    color: rgb(255, 255, 255);
-    font-size: 19px;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 .Sobre_footer{
+    width: 199.27px;
     height: 74px;
     display: flex;
     flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 .Sesiones_Footer{
     display: flex;
     flex-direction: column;
-}
-
-.Contacto_footer{
-    display: flex;
-    flex-direction: column;
-    padding-top: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .link_footer{
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     display: block;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    letter-spacing: 3.12px;
+} 
+
+.copyright{
+    grid-area: copyr;
+    display: flex;
+    justify-content: center;
+    background-color: #C859FF;
+    color: white;
+}
+
+
+.right{
+    width: auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 350;
+}
+
+
+
+
+/* ---------------- */
+/* MEDIA INICIO */
+@media screen and (max-width: 768px) {
+    .Tamanio_Boots{
+        display: none;
+    }
+    .Principal{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 700px;
+    }
+
+    .PositionB{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .SobreImg{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 700px;
+    }
+    .Sobremi{
+        align-items: center;
+    }
+    .p_sobre{
+        width: 100%;
+    }
+
+    .posicionImgS{
+        width: 50%;
+    }
+
+    .SesionesImg{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 700px;
+    }
+    .Sesiones_Inicio{
+        align-items: center;
+        text-align: center;
+    }
+    .Img_sesiones {
+        width: 50%;
+    }
+    .foto1349{
+        display: none;
+    }
+    .Fotos{
+        width: 25%;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .Tamanio_Boots{
+        display: none;
+    }
+
+    .redes_Boots{
+        display: none;
+    }
+
+    .ImgMed2{
+        width: 35%;
+    }
+    .ImgMed1{
+        width: 48%;
+    }
+
+    .posicionImgS{
+        width: auto;
+    }
+
+    .Afir_spotify{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+    .Div_afirmacion{
+        width: 80%;
+    }
+    
+    .ImgSpirit{
+        display: none
+    }
+
+    .DivSpotity{
+        width: 75%;
+        height: 200px;
+    }
+
+    .Img_sesiones{
+        width: auto;
+    }
+
+    .Sesiones_Inicio{
+        width: 100%;
+    }
+
+    .p_sobre{
+        width: 80%;
+    }
+    .TextInst{
+        font-size: 15px;
+    }
+
+    .foto500{
+        display: none;
+    }
+    .Fotos{
+        width: 50%;
+    }
+    .Footer_Boots{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 300px;
+    }
+
+
+
+
+
+}
+
+
+/* MEDIA SOBRE MI */
+@media screen and (max-width: 768px) {
+    .divTtal{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:  0.1fr 0.3fr 1fr 1.2fr 1.2fr 0.52fr 0.0624fr;
+        grid-template-areas:
+        "nav nav "
+        "header header"
+        "pres pres"
+        "expl expl"
+        "hist  hist"
+        "footer footer"
+        "copyr copyr ";
+    }
+
+    .TamanioA{
+        display: none
+    }
+
+    .navGrids{
+        height: auto;
+    }
+
+    .headerGrids{
+        height: auto;
+    }
+    #TextPresentacion{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .p_presentacion{
+        width: 80%;
+
+    }
+    .imgpresentacion{
+        width: 40%;
+    }
+    #TamanioimgPrese{
+        width: 100%;
+        height: auto;
+    }
+    #TextExplicacion{
+        width: 50%;
+    }
+    .text_explicacion{
+        width: 100%;
+    }
+    #ImgExplicacion{
+        width: 40%;
+        height: auto;
+    }
+    #ImgHistoria{
+        width: 40%;
+        height: auto;
+    }
+    #TextHistoria{
+        width: 50%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .divTtal{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows:  0.05fr 1fr 1.2fr 1.2fr 0.5fr 0.01fr;
+        grid-template-areas:
+        "header"
+        "pres"
+        "expl"
+        "hist"
+        "footer"
+        "copyr";
+    }
+
+    
+    .TamanioA{
+        display: none
+    }
+    .headerGrids{
+        display: flex;
+        height: auto;
+        width: 100%;
+        background-color: #c77dff;
+    }
+    .Icono{
+        width: 236px;
+        height: 169px;
+    }
+    .redes_header{
+        display: none;
+    }
+    .navGrids{
+        display: none;
+    }
+    .PresentAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #TextPresentacion{
+        margin-left: 0;
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.5;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .Estiloh3{
+        font-size: 40px;
+    }
+    .p_presentacion{
+        width: 86%;
+    }
+    #TamanioimgPrese{
+        width: 100%;
+        height: auto;
+    }
+    .imgpresentacion{
+        width: 65%;
+        height: auto;
+    }
+    .ExplicacionAbout{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    #TextExplicacion{
+        width: 100%;
+        height: 350px;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .Estiloh3Negro {
+        font-size: 40px;
+    }
+
+    #ImgExplicacion{
+        width: 75%;    
+        height: auto;
+    }
+
+
+    .HistoriaAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+    #TextHistoria{
+        font-size: 18px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ImgHistoria{
+        width: 75%;
+        height: auto;
+    }
+
+    .AllFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+
+    }
+    
+    .Sobre_footer{
+        line-height: 1.3;
+    }
+
+    .Sesiones_Footer{
+        line-height: 1.3;
+    }
+
+    
+    .copyright{
+        display: flex;
+        align-items: center;
+    }
+
+
+
+}
+
+
+/* MEDIA SESIONES */
+@media screen and (max-width: 768px) {
+    .Div_Sesiones{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:  0.20fr 0.3fr 0.4fr 1.2fr 1.2fr 1fr 0.0624fr;
+        grid-template-areas:
+        "nav nav"
+        "header header"
+        "en en"
+        "tam tam"
+        "tinak tinak"
+        "footer footer"
+        "copyr copyr";
+    }
+    .TameanaImg{
+        display: flex;
+        justify-content: space-evenly;
+        height: 360px;
+    }
+    #Tameana{
+        width: 50%;
+        align-items: center;
+    }
+    .p_tameana{
+        width: 100%;
+        text-align: center;
+    }
+    .posicionImgSesiones{
+        width: 40%;
+    }
+    #ImgTameana{
+        width: 100%;
+        height: auto;
+    }
+
+    .TinakImg{
+        height: 360px;
+    }
+
+    .Posicion_Imgses{
+        width: 40%;
+    }
+    #ImgTinak{
+        width: 100%;
+        height: auto;
+    }
+
+    #Tinak{
+        width: 50%;
+        height: 200px;
+        justify-content: end;
+    }
+    .p_tinak{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Div_Sesiones{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows:  0.05fr 0.3fr 1.2fr 1.3fr 1fr 0.01fr;
+        grid-template-areas:
+        "header"
+        "en"
+        "tam"
+        "tinak"
+        "footer"
+        "copyr";
+    }
+
+    .TameanaImg{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    #Tameana{
+        width: 100%;
+    }
+    .p_tameana{
+        width: 80%;
+    }
+
+    .posicionImgSesiones{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ImgTameana{
+        width: 62%;
+    }
+
+    .TinakImg{
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .Posicion_Imgses{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #ImgTinak{
+        width: 60%;
+    }
+    #Tinak{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    #Tinak h2 {
+        color: black;
+    }
+    .p_tinak{
+        text-align: center;
+        width: 80%;
+    }
+    
+}
+
+/* MEDIA CONTACTO */
+@media screen and (max-width:768px) {
+    .Div_contacto{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 0.20fr 0.3fr 0.4fr 1.2fr 1fr 1fr 0.0624fr;
+        grid-template-areas: 
+        "nav nav"
+        "header header"
+        "conta conta"
+        "info info"
+        "gif gif"
+        "footer footer"
+        "copyr copyr";
+    }
+
+    .gif{
+        position: initial;
+        height: 350px;
+    }
+    .tamaniogif{
+        position: initial;
+        width: 47%;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .Div_contacto{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows:  0.05fr 0.3fr 1.2fr 1.3fr 1fr 0.01fr;
+        grid-template-areas:
+        "header"
+        "conta"
+        "info"
+        "gif"
+        "footer"
+        "copyr";
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact p {
+        width: 80%;
+    }
+
+    #EstiloF{
+        height: 100%;
+    }
+    .gif{
+        display: flex;
+        justify-content: center;
+    }
+    .tamaniogif{
+        width: 60%;
+    }
+
+
+
+
 }
