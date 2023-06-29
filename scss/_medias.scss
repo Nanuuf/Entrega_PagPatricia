@@ -77,6 +77,12 @@
     .Img_sesiones {
         width: 50%;
     }
+    .Instagram_texto{
+        p{
+            font-size: 20px;
+        }
+    } 
+
     .foto1349{
         display: none;
     }
@@ -94,6 +100,7 @@
         display: none;
     }
 
+
     .redes_Boots{
         display: none;
     }
@@ -104,6 +111,12 @@
     .Icono_Boots{
         width: 45%;
         height: auto;
+    }
+    .PositionB {
+        h2 {
+            color: black;
+            position: initial;
+        }
     }
     .container{
         
@@ -120,6 +133,7 @@
         justify-content: space-between;
         align-items: center;
         grid-template-columns: repeat(2, max-content);
+        z-index: 1;
     }
     
     .nav:target{
@@ -213,6 +227,9 @@
     }
     .Div_afirmacion{
         width: 80%;
+        p{
+            color: black;
+        }
     }
     
     .ImgSpirit{
@@ -239,9 +256,11 @@
     .p_sobre{
         width: 80%;
     }
-    .TextInst{
-        font-size: 15px;
-    }
+    .Instagram_texto{
+        p{
+            font-size: 15px;
+        }
+    } 
 
     .foto500{
         display: none;
@@ -310,6 +329,7 @@
         align-items: center;
         grid-template-columns: repeat(2, max-content);
         margin: 0;
+        z-index: 1;
     }
     
     .nav:target{
@@ -472,6 +492,7 @@
         justify-content: space-between;
         align-items: center;
         grid-template-columns: repeat(2, max-content);
+        z-index: 1;
     }
     
     .nav:target{
@@ -555,8 +576,10 @@
         align-content: center;
     }
     
-    .Estiloh3{
-        font-size: 40px;
+    #TextPresentacion {
+        h3 {
+            font-size: 40px;
+        }
     }
     .p_presentacion{
         width: 86%;
@@ -643,7 +666,6 @@
 
 
 }
-
 
 /* MEDIA SESIONES */
 @media screen and (max-width: 768px) {
