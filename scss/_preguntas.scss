@@ -1,0 +1,26 @@
+@mixin section-style {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EstiloPreg{
+    @include section-style;
+    height: 500px;
+    color: white;
+    align-content: center;
+    margin: 0;
+    background-image: url(../images/fondoPreguntas.png);
+}
+
+.Background_preguntas{
+    width: 700px;
+    height: 350px;
+}
+
+.accordion{
+    --bs-accordion-active-bg: #952caf5e;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-color: white
+}

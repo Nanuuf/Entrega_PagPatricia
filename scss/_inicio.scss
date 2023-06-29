@@ -1,0 +1,251 @@
+.inicio{
+    background-image: url(../images/fondoInicio1.svg);
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    display: inline;
+}
+
+.Principal{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+}
+.Images_main{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: flex-end;
+    width: 50%;
+}
+.ImgMed1{
+    width: 46%;
+    height: auto;
+    position: relative;
+    bottom: 62px;
+}
+
+.ImgMed2{
+    width: 36%;
+    height: auto;
+    position: relative;
+    top: 17px;
+}
+.PositionB{
+    width: 436px;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    h2 {
+        font-family: 'Playfair Display', serif;
+        margin: 0;
+        font-size: 70px;
+        color: #4E1662;
+        font-weight: 700;
+    }
+    p{
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.SobreImg{
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../images/fondoInicio2.png);
+}
+.button-shadow{
+    box-shadow: 4px 4px 12px #c5c5c5,
+                        -4px -4px 12px #ffffff;
+}
+.Sobremi{
+    text-align: center;
+    width: 40% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    p{
+        width: 100%;
+    }
+    .button_Sobre{
+        color: #090909;
+        margin-top: 12px;
+        width: 97px;
+        height: 36px;
+        font-size: 16px;
+        font-family: 'Raleway';
+        font-weight: bold;
+        border-radius: 2.5em;
+        background: #e8e8e8;
+        border: 1px solid #e8e8e8;
+        &:active {
+            @extend .button-shadow;
+        }
+    
+    }
+}
+.posicionImgS{
+    width: 465px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    .ImgSobreMi{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.Afir_spotify{ 
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(174,36,191,1) 20%, rgba(149,250,140,1) 80%);
+}
+
+.Div_afirmacion{
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3{
+        font-size: 25px;
+        font-family: 'Playfair Display';
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+.ImgSpirit{
+    width: 30%;
+    height: auto;
+}
+
+
+.DivSpotity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 250px;
+    h3{
+        color: white;
+        font-family: 'Raleway';
+    }
+}
+/* - */
+.SesionesImg{
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../images/fondoInicio3.png);
+
+}
+
+.Img_sesiones{
+    width: 461px;
+    margin: 0;
+    padding: 0;
+}
+.ImgSesiones{
+    width: 400px;
+    height: 400px;
+}
+.Sesiones_Inicio{
+    text-align: start;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        width: 100%;
+    }
+    .button_Sobre{
+        color: #090909;
+        margin-top: 12px;
+        width: 97px;
+        height: 36px;
+        font-size: 16px;
+        font-family: 'Raleway';
+        font-weight: bold;
+        border-radius: 2.5em;
+        background: #e8e8e8;
+        border: 1px solid #e8e8e8;
+        &:active {
+            @extend .button-shadow;
+        } 
+    
+    }
+}
+
+.p_sobre{
+    width: 100%;
+}
+
+.button_Sobre{
+    color: #090909;
+    margin-top: 12px;
+    width: 97px;
+    height: 36px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    border-radius: 2.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+
+}
+
+/* - */
+.sec_instagram{
+    background-color: #90f76ec9;
+    width: 100%;
+    margin: 0;
+    height: 84px;
+}
+.Instagram_texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-family: 'Zilla Slab', serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: white;
+    }
+}
+
+.secInst{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Fotos{
+    width: 16.6% ;
+    height: auto;
+    padding: 0;
+}

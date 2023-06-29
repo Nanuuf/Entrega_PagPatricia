@@ -1,0 +1,107 @@
+.navGrids{
+    grid-area: nav;
+    height: 40px;
+    background-color: $color_principal;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 200;
+    margin: 0;
+}
+
+.headerGrids {
+    grid-area: header;
+    height: 130px;
+    background-color: $color_principal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav{
+    display: none;
+}
+.TamanioA{
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Icono {
+    width: 100px;
+    height: 110px;
+}
+
+.redes_header{
+    display: flex;
+    align-items: center;
+    width: 139px;
+    justify-content: space-around;
+}
+
+#IconInst{
+    width: 35px;
+    height: 35px;
+}
+
+.IconWsp{
+    width: 30px;
+    height: 30px;
+}
+.IconTelg {
+    width: 42px;
+    height: 42px;
+}
+
+
+/* FOOTER GRIDS */
+.AllFooter{
+    grid-area: footer;
+    background-color: $color_secundario;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    line-height: 167%;
+    letter-spacing: 3.12px;
+}
+
+.Sobre_footer{
+    width: 199.27px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+    a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        letter-spacing: 3.12px;
+    }
+}
+.Sesiones_Footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.copyright{
+    grid-area: copyr;
+    display: flex;
+    justify-content: center;
+    background-color: $color_secundario;
+    color: white;
+    p{
+        width: auto;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 350;
+    }
+}
+
+
+

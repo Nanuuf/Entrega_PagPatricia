@@ -1,0 +1,67 @@
+/* GRID */
+.Div_contacto{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 0.1fr 0.3fr 0.3fr 0.5fr 0.5fr 0.50fr 0.0624fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "conta conta conta"
+    "info info info"
+    "gif gif gif"
+    "footer footer footer"
+    "copyr copyr copyr";
+}
+
+.contact{
+    grid-area: conta ;
+    background-color: $color_principal;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    h2{
+        font-family: 'DM Serif Display', serif;
+        font-size: 50px;
+        color: white;
+    }
+}
+
+#EstiloF{
+    grid-area: info;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Info{
+    background-color: #acff90c7;
+    width: 550px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 37px;
+    p{
+        font-size: 31px;
+        font-family: 'Oswald';
+        color: black;
+        font-weight: 400;
+    }
+
+}
+
+
+.gif{
+    grid-area: gif;
+    position: absolute;
+}
+.tamaniogif{
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top: 108px;
+}

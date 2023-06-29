@@ -1,1731 +1,1510 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.inicio {
+  background-image: url(../images/fondoInicio1.svg);
+  background-size: cover;
 }
-/* BODY */
-.body{
-    background-color: white;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
-/* ---- */
-/* MAIN */
-
-
 
 main {
-    width: 100%;
-    display: inline;
+  width: 100%;
+  display: inline;
 }
 
-.inicio{
-    background-image: url(../images/fondoInicio1.svg);
-    background-size: cover;
-}
-.Principal{
-    width: 100%;
-    height: 600px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: 0;
+.Principal {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
 }
 
-.Images_main{
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    align-items: flex-end;
-    width: 50%;
+.Images_main {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  align-items: flex-end;
+  width: 50%;
 }
 
-.ImgMed1{
-    width: 46%;
-    height: auto;
-    position: relative;
-    bottom: 62px;
+.ImgMed1 {
+  width: 46%;
+  height: auto;
+  position: relative;
+  bottom: 62px;
 }
 
-.ImgMed2{
-    width: 36%;
-    height: auto;
-    position: relative;
-    top: 17px;
+.ImgMed2 {
+  width: 36%;
+  height: auto;
+  position: relative;
+  top: 17px;
 }
 
-
-.PositionB{
-    width: 436px;
-    height: 264px;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    justify-content: center;
+.PositionB {
+  width: 436px;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  justify-content: center;
+}
+.PositionB h2 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  font-size: 70px;
+  color: #4E1662;
+  font-weight: 700;
+}
+.PositionB p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.EstiloB{
-    font-family: 'Playfair Display', serif;
-    margin: 0;
-    font-size: 70px;
-    color: #4E1662;
-    font-weight: 700;
+.SobreImg {
+  width: 100%;
+  height: 450px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(../images/fondoInicio2.png);
 }
 
-.EstiloP {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+.button-shadow, .Sesiones_Inicio .button_Sobre:active, .Sobremi .button_Sobre:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
 }
 
-
-/* AGENDA TU SESION */
-.agenda-container{
-    width: 100%;
-    margin: 0;
+.Sobremi {
+  text-align: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
-.Agenda{
-    font-family: 'Raleway';
-    font-weight: bold;
-    font-size: 13px;
-    color: rgb(231, 226, 226);
-    border: solid 3px #540977;
-    background-color: #b67fdb;
-    height: 39px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Sobremi p {
+  width: 100%;
 }
-
-
-/* INFO */
-.SobreImg{
-    width: 100%;
-    height: 450px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-image: url(../images/fondoInicio2.png);
+.Sobremi .button_Sobre {
+  color: #090909;
+  margin-top: 12px;
+  width: 97px;
+  height: 36px;
+  font-size: 16px;
+  font-family: "Raleway";
+  font-weight: bold;
+  border-radius: 2.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
 }
-.Sobremi{
-    text-align: center;
-    width: 40% ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+.posicionImgS {
+  width: 465px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+.posicionImgS .ImgSobreMi {
+  width: 400px;
+  height: 400px;
 }
 
-.p_sobre{
-    width: 100%;
+.Afir_spotify {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(174, 36, 191) 20%, rgb(149, 250, 140) 80%);
 }
 
-.button_Sobre{
-    color: #090909;
-    margin-top: 12px;
-    width: 97px;
-    height: 36px;
-    font-size: 16px;
-    font-family: 'Raleway';
-    font-weight: bold;
-    border-radius: 2.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-
+.Div_afirmacion {
+  text-align: center;
+  color: white;
+  width: 30%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Div_afirmacion h3 {
+  font-size: 25px;
+  font-family: "Playfair Display";
+}
+.Div_afirmacion p {
+  font-size: 16px;
 }
 
-button:active {
-    box-shadow: 4px 4px 12px #c5c5c5,
-                -4px -4px 12px #ffffff;
+.ImgSpirit {
+  width: 30%;
+  height: auto;
 }
 
-.posicionImgS{
-    width: 465px;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0;
+.DivSpotity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 250px;
 }
-.ImgSobreMi{
-    width: 400px;
-    height: 400px;
-}
-
-
-/* ---- */
-/* AFIRMACION + SPOTIFY */
-.Afir_spotify{ 
-    width: 100%;
-    height: 400px;
-    margin: 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.DivSpotity h3 {
+  color: white;
+  font-family: "Raleway";
 }
 
-.Div_afirmacion{
-    text-align: center;
-    background-color: #9d4edd;
-    color: white;
-    width: 30%;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.H3_afirmacion{
-    font-size: 25px;
-    font-family: 'Playfair Display';
-}
-.afirmacion{
-    font-size: 16px;
+/* - */
+.SesionesImg {
+  width: 100%;
+  height: 450px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(../images/fondoInicio3.png);
 }
 
-
-.ImgSpirit{
-    width: 30%;
-    height: auto;
+.Img_sesiones {
+  width: 461px;
+  margin: 0;
+  padding: 0;
 }
 
-
-.DivSpotity{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    height: 250px;
+.ImgSesiones {
+  width: 400px;
+  height: 400px;
 }
 
-
-.Spotify{
-    color: white;
-    font-family: 'Raleway';
-
+.Sesiones_Inicio {
+  text-align: start;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Sesiones_Inicio p {
+  width: 100%;
+}
+.Sesiones_Inicio .button_Sobre {
+  color: #090909;
+  margin-top: 12px;
+  width: 97px;
+  height: 36px;
+  font-size: 16px;
+  font-family: "Raleway";
+  font-weight: bold;
+  border-radius: 2.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+}
+.p_sobre {
+  width: 100%;
 }
 
-
-/* ---- */
-/* INFO */
-.SesionesImg{
-    width: 100%;
-    height: 450px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-image: url(../images/fondoInicio3.png);
-
+.button_Sobre {
+  color: #090909;
+  margin-top: 12px;
+  width: 97px;
+  height: 36px;
+  font-size: 16px;
+  font-family: "Raleway";
+  font-weight: bold;
+  border-radius: 2.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
 }
 
-.Img_sesiones{
-    width: 461px;
-    margin: 0;
-    padding: 0;
-}
-.ImgSesiones{
-    width: 400px;
-    height: 400px;
-}
-.Sesiones_Inicio{
-    text-align: start;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+/* - */
+.sec_instagram {
+  background-color: rgba(144, 247, 110, 0.7882352941);
+  width: 100%;
+  margin: 0;
+  height: 84px;
 }
 
-
-/* -------- */
-/* INSTAGRAM */
-.sec_instagram{
-    background-color: #90f76ec9;
-    width: 100%;
-    margin: 0;
-    height: 84px;
+.Instagram_texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.Instagram_texto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.TextInst{
-    font-family: 'Zilla Slab', serif;
-    font-weight: 500;
-    font-size: 30px;
-    color: white;
+.Instagram_texto p {
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
 }
 
-.secInst{
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+.secInst {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.Fotos{
-    width: 16.6% ;
-    height: auto;
-    padding: 0;
+.Fotos {
+  width: 16.6%;
+  height: auto;
+  padding: 0;
 }
 
-@media screen and (max-width: 1300px ){
-    .Principal{
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .ImgMed2{
-        width: 225px;
-        height: auto;
-        top: 50px;
-    }
-
-    .ImgMed1{
-        width: 305px;
-        height: auto;
-        position: initial;
-    }
-
-    .PositionB{
-        width: 40%;
-    }
-    .EstiloP{
-        width: 85%;
-    }
-    .EstiloB{
-        font-size: 50px;
-    }
-
-
-    .TextInst{
-        font-size: 15px;
-    }
+.divTtal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.1fr 0.3fr 1.3fr 1.3fr 1.25fr 0.52fr 0.0624fr;
+  grid-template-areas: "nav nav nav" "header header header" "pres pres pres" "expl expl expl" "hist hist hist" "footer footer footer" "copyr copyr copyr";
 }
 
-
-
-/* -------------------------------------------------------- */
-/* GRID ABOUT*/
-.divTtal{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.1fr 0.3fr 1.30fr 1.30fr 1.25fr 0.52fr 0.0624fr;
-    grid-template-areas: 
-    "nav nav nav"
-    "header header header"
-    "pres pres pres"
-    "expl expl expl"
-    "hist hist hist"
-    "footer footer footer"
-    "copyr copyr copyr";
-
+.EstiloSobre {
+  color: white;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150.969%;
+  letter-spacing: 0.5px;
 }
 
-/* -------------------------------------------------------- */
-/* SOBRE MI */
-.EstiloSobre{
-    color: white;
-    font-size: 16px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-    line-height: 150.969%;
-    letter-spacing: 0.5px;
-
+.Estiloh3 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 4.68px;
+  line-height: 1.5;
 }
-
-.Estiloh3{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-family: 'DM Serif Display', serif;
-    letter-spacing: 4.68px;
-    line-height: 1.5;
-}
-
 
 /* Presentacion */
-.PresentAbout{
-    grid-area: pres;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/fondoSobre1.svg);
-    background-size: cover ;
+.PresentAbout {
+  grid-area: pres;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/fondoSobre1.svg);
+  background-size: cover;
 }
-#TextPresentacion{
-    text-align: center;
-    width: 504px;
 
+#TextPresentacion {
+  text-align: center;
+  width: 504px;
 }
-.imgpresentacion{
-    width: 500px;
-    height: 500px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+#TextPresentacion h3 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 4.68px;
+  line-height: 1.5;
 }
-#TamanioimgPrese{
-    width: 400px ;
-    height: 400px;
-} 
+
+.imgpresentacion {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#TamanioimgPrese {
+  width: 400px;
+  height: 400px;
+}
 
 /* Explicacion */
-.ExplicacionAbout{
-    grid-area: expl;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-image: url(../images/fondoSobre2.png);
-}
-#ImgExplicacion{
-    width: 380px;
-    height: 380px;
-}
-.Estiloh3Negro{
-    color: black;
-    font-size: 30px;
-    font-family: 'DM Serif Display', serif;
-    letter-spacing: 4.68px;
-    line-height: 1.5;
-}
-.EstiloSobreNegro{
-    color: black;
-    font-size: 16px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-    line-height: 150.969%;
-    letter-spacing: 0.5px;
+.EstiloSobreNegro {
+  color: black;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150.969%;
+  letter-spacing: 0.5px;
 }
 
-#TextExplicacion{
-    text-align: center;
-    width: 621px;
+.ExplicacionAbout {
+  grid-area: expl;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(../images/fondoSobre2.png);
+}
+
+#ImgExplicacion {
+  width: 380px;
+  height: 380px;
+}
+
+#TextExplicacion {
+  text-align: center;
+  width: 621px;
+}
+#TextExplicacion h3 {
+  color: black;
+  font-size: 30px;
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 4.68px;
+  line-height: 1.5;
 }
 
 /* Historia */
-.HistoriaAbout{
-    grid-area: hist;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-image: url(../images/fondoSobre3.svg);
-    background-size: cover;
+.HistoriaAbout {
+  grid-area: hist;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(../images/fondoSobre3.svg);
+  background-size: cover;
 }
 
-#TextHistoria{
-    display: inline-block;
-    text-align: center;
-    width: 668px;
+#TextHistoria {
+  display: inline-block;
+  text-align: center;
+  width: 668px;
 }
-#ImgHistoria{
-    width: 380px ;
-    height: 380px;
-}
-
-
-/* -------------------------------------------------------- */
-/* SESIONES  GRID*/
-.Div_Sesiones{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.05fr 0.2fr 0.3fr 1fr 1fr 0.52fr 0.0624fr;
-    grid-template-areas: 
-    "nav nav nav"
-    "header header header"
-    "en en en"
-    "tam tam tam"
-    "tinak tinak tinak"
-    "footer footer footer"
-    "copyr copyr copyr";
+#TextHistoria h3 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 4.68px;
+  line-height: 1.5;
 }
 
-
-/* -------------------------------------------------------- */
-.conoce{
-    grid-area: en;
-    font-family: 'DM Serif Display', serif;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #C77DFF;
-}
-.textoconoce{
-    width: 439px;
-    text-align: center;
+#ImgHistoria {
+  width: 380px;
+  height: 380px;
 }
 
-.TameanaImg{
-    grid-area: tam;
-    background-image: url(../images/fondoSesiones1.svg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-#Tameana{
-    text-align: center;
-    width: 50% ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-}
-.p_tameana{
-    width: 100%;
-    height: 100px;
-    font-size: 16px;
-    font-family: 'Inter';
-    text-align: start;
-}
-.p_tinak{
-    width: 100%;
-    font-size: 16px;
-    font-family: 'Inter';
-    text-align: end;
+.Div_Sesiones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.05fr 0.2fr 0.3fr 1fr 1fr 0.52fr 0.0624fr;
+  grid-template-areas: "nav nav nav" "header header header" "en en en" "tam tam tam" "tinak tinak tinak" "footer footer footer" "copyr copyr copyr";
 }
 
-.posicionImgSesiones{
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
+.conoce {
+  grid-area: en;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C77DFF;
 }
-#ImgTameana{
-    width: 100%;
-    height: 87%;
-}
-
-.EstiloTexto{
-    font-size: 40px;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 5.2px;
-    color: white;
-    font-weight: 400;
+.conoce p {
+  width: 439px;
+  text-align: center;
 }
 
-
-.TinakImg{
-    grid-area: tinak;
-    background-image: url(../images/fondoSesiones2.svg);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#Tinak{
-    text-align: center;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end
-    ;
+.TameanaImg {
+  grid-area: tam;
+  background-image: url(../images/fondoSesiones1.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
-#ImgTinak{
-    width: 360px;
-    height: auto;
+#Tameana {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+#Tameana h2 {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5.2px;
+  color: white;
+  font-weight: 400;
+}
+#Tameana p {
+  width: 100%;
+  height: 100px;
+  font-size: 16px;
+  font-family: "Inter";
+  text-align: start;
 }
 
+.posicionImgSesiones {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
 
+#ImgTameana {
+  width: 100%;
+  height: 87%;
+}
 
-/* -------------------------------------------------------- */
+.TinakImg {
+  grid-area: tinak;
+  background-image: url(../images/fondoSesiones2.svg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ImgTinak {
+  width: 360px;
+  height: auto;
+}
+
+#Tinak {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+#Tinak h2 {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5.2px;
+  color: white;
+  font-weight: 400;
+}
+#Tinak p {
+  width: 100%;
+  font-size: 16px;
+  font-family: "Inter";
+  text-align: end;
+}
+
 /* GRID */
-.Div_contacto{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 0.1fr 0.3fr 0.3fr 0.5fr 0.5fr 0.50fr 0.0624fr;
-    grid-template-areas: 
-    "nav nav nav"
-    "header header header"
-    "conta conta conta"
-    "info info info"
-    "gif gif gif"
-    "footer footer footer"
-    "copyr copyr copyr";
-}
-/* CONTACTO */
-.contact{
-    grid-area: conta ;
-    background-color: #C77DFF;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    text-align: center;
-}
-.h2contacto{
-    font-family: 'DM Serif Display', serif;
-    font-size: 50px;
-    color: white;
-}
-#EstiloF{
-    grid-area: info;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Div_contacto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.1fr 0.3fr 0.3fr 0.5fr 0.5fr 0.5fr 0.0624fr;
+  grid-template-areas: "nav nav nav" "header header header" "conta conta conta" "info info info" "gif gif gif" "footer footer footer" "copyr copyr copyr";
 }
 
-#Info{
-    background-color: #acff90c7;
-    width: 550px;
-    height: 330px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    line-height: 37px;
-
+.contact {
+  grid-area: conta;
+  background-color: #C77DFF;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.contact h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  color: white;
 }
 
-.p_contacto{
-    font-size: 31px;
-    font-family: 'Oswald';
-    color: black;
-    font-weight: 400;
+#EstiloF {
+  grid-area: info;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.gif{
-    grid-area: gif;
-    position: absolute;
+#Info {
+  background-color: rgba(172, 255, 144, 0.7803921569);
+  width: 550px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  line-height: 37px;
 }
-.tamaniogif{
-    width: 400px;
-    height: auto;
-    position: fixed;
-    top: 108px;
-}
-
-
-
-/* ----------------------------------------------------- */
-/* PREG. FRECUENTES */
-.EstiloPreg{
-    height: 500px;
-    color: white;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: 0;
-    background-image: url(../images/fondoPreguntas.png);
+#Info p {
+  font-size: 31px;
+  font-family: "Oswald";
+  color: black;
+  font-weight: 400;
 }
 
-.Background_preguntas{
-    width: 700px;
-    height: 350px;
+.gif {
+  grid-area: gif;
+  position: absolute;
 }
 
-.accordion{
-    --bs-accordion-active-bg: #952caf5e;
-    --bs-accordion-btn-focus-box-shadow: none;
-    --bs-accordion-active-color: white
+.tamaniogif {
+  width: 400px;
+  height: auto;
+  position: fixed;
+  top: 108px;
 }
 
-/* ----------------------------- */
-
-p{
-    margin-bottom: 0;
+.EstiloPreg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  color: white;
+  align-content: center;
+  margin: 0;
+  background-image: url(../images/fondoPreguntas.png);
 }
 
-/* -------------------------------------------------------------------- */
-/* COMPARTIDOS BOOTS */
-
-/* NAV */
-
-.navBoots{
-    height: 46px;
-    background-color: #C77DFF;
-    display: flex;
-    align-items: center;
-    color: #FFF;
-    font-size: 18px;
-    font-family: Inter;
-    font-weight: 200;
-    margin: 0;
+.Background_preguntas {
+  width: 700px;
+  height: 350px;
 }
 
-.Header_Boots{ 
-    height: 130px;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    background-color: #C77DFF;
+.accordion {
+  --bs-accordion-active-bg: #952caf5e;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-color: white ;
+}
+
+.navBoots {
+  height: 46px;
+  background-color: #C77DFF;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 200;
+  margin: 0;
+}
+
+.Header_Boots {
+  height: 130px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  background-color: #C77DFF;
 }
 
 .Logo_Boots {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 10px;
-    align-content: center;
-    justify-content: flex-start;
-    width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  align-content: center;
+  justify-content: flex-start;
+  width: auto;
 }
+
 .Icono_Boots {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
-.Tamanio_Boots{
-    height: 130px;
-    width: 592px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Tamanio_Boots {
+  height: 130px;
+  width: 592px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.redes_Boots{
-    width: 195px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+.redes_Boots {
+  width: 195px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
-#aInsta_Boots{
-    width: 10px;
-    display: inline-block;
-}
-.PositionInst_Boots{
-    width: 51px;
-    display: inline-block;
-    
+#aInsta_Boots {
+  width: 10px;
+  display: inline-block;
 }
 
-#IconInst_Boots{
-    width: 35px;
-    height: 35px;
+.PositionInst_Boots {
+  width: 51px;
+  display: inline-block;
 }
 
-.PositionWsp_Boots{
-    width: 45px;
+#IconInst_Boots {
+  width: 35px;
+  height: 35px;
 }
-.IconWsp_Boots{
-    width: 30px;
-    height: 30px;
+
+.PositionWsp_Boots {
+  width: 45px;
+}
+
+.IconWsp_Boots {
+  width: 30px;
+  height: 30px;
 }
 
 .IconTelg_Boots {
-    width: 42px;
-    height: 42px;
+  width: 42px;
+  height: 42px;
 }
-.PositionTeleg_Boots{
-    width: 45px;
+
+.PositionTeleg_Boots {
+  width: 45px;
 }
 
 /* FOOTER */
-.Footer_Boots{
-    background-color: #C859FF;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    color: white;
-    line-height: 167%;
-    margin: 0;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 3.12px;
-
+.Footer_Boots {
+  background-color: #C859FF;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  color: white;
+  line-height: 167%;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3.12px;
 }
 
-.SobreFooter_Boots{
-    display: flex;
-    flex-direction: column;
-    width: 199.27px;
-    height: 74px;
-    
+.SobreFooter_Boots {
+  display: flex;
+  flex-direction: column;
+  width: 199.27px;
+  height: 74px;
 }
-.link_Boots{
-    color: white;
-    text-decoration: none;
-    display: block;
-    letter-spacing: 3.12px;
-}
-
-.Sesiones_Boots{
-    display: flex;
-    flex-direction: column;
-    width: auto;
+.SobreFooter_Boots a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  letter-spacing: 3.12px;
 }
 
-.copyright_Boots{
-    display: flex;
-    background-color: #C859FF;
-    color: white;
-    justify-content: center;
-    margin: 0;
-}
-.right_B{
-    width: auto;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 350;
+.Sesiones_Boots {
+  display: flex;
+  flex-direction: column;
+  width: auto;
 }
 
-
-/* LINKS */
-a {
-    text-decoration: none;
-    color: black;
+.copyright_Boots {
+  display: flex;
+  background-color: #C859FF;
+  color: white;
+  justify-content: center;
+  margin: 0;
+}
+.copyright_Boots p {
+  width: auto;
+  font-family: "Oswald", sans-serif;
+  font-weight: 350;
 }
 
-ul { 
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin-bottom: 0;
-    width: 100%;
-}
-li a {
-    color: white
-    
-}
-
-
-
-
-
-/* COMPARTIDOS GRID --------------------------------------------------*/
-/* NAV - HEADER */
-.navGrids{
-    grid-area: nav;
-    height: 40px;
-    background-color: #C77DFF;
-    display: flex;
-    align-items: center;
-    color: #FFF;
-    font-size: 18px;
-    font-family: 'Inter';
-    font-weight: 200;
-    margin: 0;
+.navGrids {
+  grid-area: nav;
+  height: 40px;
+  background-color: #C77DFF;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 200;
+  margin: 0;
 }
 
 .headerGrids {
-    grid-area: header;
-    height: 130px;
-    background-color: #C77DFF;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  grid-area: header;
+  height: 130px;
+  background-color: #C77DFF;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.nav{
-    display: none;
+
+.nav {
+  display: none;
 }
-.TamanioA{
-    width: 650px;
-    display: flex;
-    justify-content: flex-end;
+
+.TamanioA {
+  width: 650px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .Icono {
-    width: 100px;
-    height: 110px;
+  width: 100px;
+  height: 110px;
 }
 
-.redes_header{
-    display: flex;
-    align-items: center;
-    width: 139px;
-    justify-content: space-around;
+.redes_header {
+  display: flex;
+  align-items: center;
+  width: 139px;
+  justify-content: space-around;
 }
 
-#IconInst{
-    width: 35px;
-    height: 35px;
+#IconInst {
+  width: 35px;
+  height: 35px;
 }
 
-.IconWsp{
-    width: 30px;
-    height: 30px;
+.IconWsp {
+  width: 30px;
+  height: 30px;
 }
+
 .IconTelg {
-    width: 42px;
-    height: 42px;
+  width: 42px;
+  height: 42px;
 }
-
 
 /* FOOTER GRIDS */
-.AllFooter{
-    grid-area: footer;
-    background-color: #C859FF;
-    display: flex;
+.AllFooter {
+  grid-area: footer;
+  background-color: #C859FF;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  line-height: 167%;
+  letter-spacing: 3.12px;
+}
+
+.Sobre_footer {
+  width: 199.27px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.Sobre_footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  letter-spacing: 3.12px;
+}
+
+.Sesiones_Footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.copyright {
+  grid-area: copyr;
+  display: flex;
+  justify-content: center;
+  background-color: #C859FF;
+  color: white;
+}
+.copyright p {
+  width: auto;
+  font-family: "Oswald", sans-serif;
+  font-weight: 350;
+}
+
+/* MEDIA INICIO */
+@media screen and (max-width: 1300px) {
+  .Principal {
     justify-content: space-evenly;
     align-items: center;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    line-height: 167%;
-    letter-spacing: 3.12px;
+  }
+  .ImgMed2 {
+    width: 225px;
+    height: auto;
+    top: 50px;
+  }
+  .ImgMed1 {
+    width: 305px;
+    height: auto;
+    position: initial;
+  }
+  .PositionB {
+    width: 40%;
+  }
+  .PositionB h2 {
+    font-size: 50px;
+  }
+  .PositionB p {
+    width: 85%;
+  }
+  .TextInst {
+    font-size: 15px;
+  }
 }
-
-.Sobre_footer{
-    width: 199.27px;
-    height: 74px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-.Sesiones_Footer{
-    display: flex;
-    flex-direction: column;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.link_footer{
-    color: white;
-    text-decoration: none;
-    display: block;
-    letter-spacing: 3.12px;
-} 
-
-.copyright{
-    grid-area: copyr;
-    display: flex;
-    justify-content: center;
-    background-color: #C859FF;
-    color: white;
-}
-
-
-.right{
-    width: auto;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 350;
-}
-
-
-
-
-/* ---------------- */
-/* MEDIA INICIO */
 @media screen and (max-width: 768px) {
-    .Tamanio_Boots{
-        display: none;
-    }
-    .navBoots{
-        display: none;
-    }
-    .Principal{
-        flex-direction: column;
-        flex-wrap: nowrap;
-        height: 700px;
-    }
-
-    .PositionB{
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-
-    .SobreImg{
-        flex-direction: column;
-        flex-wrap: nowrap;
-        height: 700px;
-    }
-    .Sobremi{
-        align-items: center;
-    }
-    .p_sobre{
-        width: 100%;
-    }
-
-    .posicionImgS{
-        width: 50%;
-    }
-
-    .SesionesImg{
-        flex-direction: column;
-        flex-wrap: nowrap;
-        height: 700px;
-    }
-    .Sesiones_Inicio{
-        align-items: center;
-        text-align: center;
-    }
-    .Img_sesiones {
-        width: 50%;
-    }
-    .foto1349{
-        display: none;
-    }
-    .Fotos{
-        width: 25%;
-    }
-    .ImgMed2{
-        position: initial;
-    }
-
+  .Tamanio_Boots {
+    display: none;
+  }
+  .navBoots {
+    display: none;
+  }
+  .Principal {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 700px;
+  }
+  .PositionB {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .SobreImg {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 700px;
+  }
+  .Sobremi {
+    align-items: center;
+  }
+  .p_sobre {
+    width: 100%;
+  }
+  .posicionImgS {
+    width: 50%;
+  }
+  .SesionesImg {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 700px;
+  }
+  .Sesiones_Inicio {
+    align-items: center;
+    text-align: center;
+  }
+  .Img_sesiones {
+    width: 50%;
+  }
+  .foto1349 {
+    display: none;
+  }
+  .Fotos {
+    width: 25%;
+  }
+  .ImgMed2 {
+    position: initial;
+  }
 }
-
 @media screen and (max-width: 500px) {
-    .Tamanio_Boots{
-        display: none;
-    }
-
-    .redes_Boots{
-        display: none;
-    }
-
-    .Logo_Boots{
-        width: 40%;
-    }
-    .Icono_Boots{
-        width: 45%;
-        height: auto;
-    }
-    .container{
-        
-        width: 40%;
-        max-width: 1200px;
-        overflow: hidden;
-    }
-    .nav{
-        --state-close: scale(0);
-        --state-hamburguer:scale(1);
-        --state-menu: translate(-100%);
-
-        display: grid;
-        justify-content: space-between;
-        align-items: center;
-        grid-template-columns: repeat(2, max-content);
-    }
-    
-    .nav:target{
-        --state-menu: translate(0);
-        --state-close: scale(1);
-        --state-hamburguer:scale(0);
-    }
-    
-    .nav__logo{
-        font-size: 2.5rem;
-        z-index: 1;
-    }
-    
-    .nav__hamburguer, 
-    .nav__close{
-        cursor: pointer;
-        grid-column: -2/-1;
-        grid-row: 1/2;
-        transition: .4s transform;
-    }
-    
-    .nav__hamburguer{
-        transform: var(--state-hamburguer);
-    }
-    
-    .nav__close{
-        transform: var(--state-close);
-    }
-    
-    .nav__icon{
-        width: 40px;
-    }
-    
-    .nav__links{
-        background-color: #c77dff;
-        font-family: 'Inter';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 0;
-    
-        display: grid;
-        align-content: center;
-        gap: 1.5em;
-        padding-left: 5%;
-    
-        transform: var(--state-menu);
-        transition: .3s transform;
-    }
-    
-    .nav__item{
-        list-style: none;
-    }
-    
-    .nav__link{
-        color: #fff;
-        text-decoration: none;
-        font-size: 1.2rem;
-        letter-spacing: 2px;
-    }
-
-
-
-
-    .Images_main{
-        width: 100%;
-    }
-    .ImgMed2{
-        width: 35%;
-        position: initial;
-    }
-    .ImgMed1{
-        width: 48%;
-    }
-    .SobreImg{
-        height: 610px;
-    }
-    .posicionImgS{
-        width: auto;
-    }
-    .Sobremi{
-        width: 100%;
-    }
-    .Afir_spotify{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        justify-content: center;
-    }
-    .Div_afirmacion{
-        width: 80%;
-    }
-    
-    .ImgSpirit{
-        display: none
-    }
-
-    .DivSpotity{
-        width: 75%;
-        height: 200px;
-    }
-
-    .Img_sesiones{
-        width: auto;
-    }
-    .ImgSesiones{
-        height: auto;
-        width: 100%;
-    }
-
-    .Sesiones_Inicio{
-        width: 100%;
-    }
-
-    .p_sobre{
-        width: 80%;
-    }
-    .TextInst{
-        font-size: 15px;
-    }
-
-    .foto500{
-        display: none;
-    }
-    .Fotos{
-        width: 50%;
-    }
-    .Footer_Boots{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        height: 300px;
-    }
-
-
-
-
-
+  .Tamanio_Boots {
+    display: none;
+  }
+  .redes_Boots {
+    display: none;
+  }
+  .Logo_Boots {
+    width: 40%;
+  }
+  .Icono_Boots {
+    width: 45%;
+    height: auto;
+  }
+  .container {
+    width: 40%;
+    max-width: 1200px;
+    overflow: hidden;
+  }
+  .nav {
+    --state-close: scale(0);
+    --state-hamburguer:scale(1);
+    --state-menu: translate(-100%);
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(2, max-content);
+  }
+  .nav:target {
+    --state-menu: translate(0);
+    --state-close: scale(1);
+    --state-hamburguer:scale(0);
+  }
+  .nav__logo {
+    font-size: 2.5rem;
+    z-index: 1;
+  }
+  .nav__hamburguer,
+  .nav__close {
+    cursor: pointer;
+    grid-column: -2/-1;
+    grid-row: 1/2;
+    transition: 0.4s transform;
+  }
+  .nav__hamburguer {
+    transform: var(--state-hamburguer);
+  }
+  .nav__close {
+    transform: var(--state-close);
+  }
+  .nav__icon {
+    width: 40px;
+  }
+  .nav__links {
+    background-color: #C77DFF;
+    font-family: "Inter";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    display: grid;
+    align-content: center;
+    gap: 1.5em;
+    padding-left: 5%;
+    transform: var(--state-menu);
+    transition: 0.3s transform;
+  }
+  .nav__item {
+    list-style: none;
+  }
+  .nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  .Images_main {
+    width: 100%;
+  }
+  .ImgMed2 {
+    width: 35%;
+    position: initial;
+  }
+  .ImgMed1 {
+    width: 48%;
+  }
+  .SobreImg {
+    height: 610px;
+  }
+  .posicionImgS {
+    width: auto;
+  }
+  .Sobremi {
+    width: 100%;
+  }
+  .Afir_spotify {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
+  .Div_afirmacion {
+    width: 80%;
+  }
+  .ImgSpirit {
+    display: none;
+  }
+  .DivSpotity {
+    width: 75%;
+    height: 200px;
+  }
+  .Img_sesiones {
+    width: auto;
+  }
+  .ImgSesiones {
+    height: auto;
+    width: 100%;
+  }
+  .Sesiones_Inicio {
+    width: 100%;
+  }
+  .p_sobre {
+    width: 80%;
+  }
+  .TextInst {
+    font-size: 15px;
+  }
+  .foto500 {
+    display: none;
+  }
+  .Fotos {
+    width: 50%;
+  }
+  .Footer_Boots {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+  }
 }
-
-
 /* MEDIA SOBRE MI */
 @media screen and (max-width: 768px) {
-    .divTtal{
-        width: 100%;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows:  0.3fr 1fr 1.2fr 1.2fr 0.52fr 0.0624fr;
-        grid-template-areas:
-        "header header"
-        "pres pres"
-        "expl expl"
-        "hist  hist"
-        "footer footer"
-        "copyr copyr ";
-    }
-
-    .TamanioA{
-        display: none
-    }
-
-    .navGrids{
-        display: none;
-    }
-
-
-    .headerGrids{
-        height: auto;
-    }
-
-    .redes_header{
-        width: 20%;
-    }
-    .container{
-        
-        width: auto;
-        max-width: 1200px;
-        overflow: hidden;
-    }
-    .nav{
-        --state-close: scale(0);
-        --state-hamburguer:scale(1);
-        --state-menu: translate(-100%);
-
-        display: grid;
-        justify-content: space-between;
-        align-items: center;
-        grid-template-columns: repeat(2, max-content);
-        margin: 0;
-    }
-    
-    .nav:target{
-        --state-menu: translate(0);
-        --state-close: scale(1);
-        --state-hamburguer:scale(0);
-    }
-    
-    .nav__logo{
-        font-size: 2.5rem;
-        z-index: 1;
-    }
-    
-    .nav__hamburguer, 
-    .nav__close{
-        cursor: pointer;
-        grid-column: -2/-1;
-        grid-row: 1/2;
-        transition: .4s transform;
-    }
-    
-    .nav__hamburguer{
-        transform: var(--state-hamburguer);
-    }
-    
-    .nav__close{
-        transform: var(--state-close);
-    }
-    
-    .nav__icon{
-        width: 40px;
-    }
-    
-    .nav__links{
-        background-color: #c77dff;
-        font-family: 'Inter';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 0;
-    
-        display: grid;
-        align-content: center;
-        gap: 1.5em;
-        padding-left: 5%;
-    
-        transform: var(--state-menu);
-        transition: .3s transform;
-    }
-    
-    .nav__item{
-        list-style: none;
-    }
-    
-    .nav__link{
-        color: #fff;
-        text-decoration: none;
-        font-size: 1.2rem;
-        letter-spacing: 2px;
-    }
-    
-
-
-
-    #TextPresentacion{
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .p_presentacion{
-        width: 80%;
-
-    }
-    .imgpresentacion{
-        width: 40%;
-    }
-    #TamanioimgPrese{
-        width: 100%;
-        height: auto;
-    }
-    #TextExplicacion{
-        width: 50%;
-    }
-    .text_explicacion{
-        width: 100%;
-    }
-    #ImgExplicacion{
-        width: 40%;
-        height: auto;
-    }
-    #ImgHistoria{
-        width: 40%;
-        height: auto;
-    }
-    #TextHistoria{
-        width: 50%;
-    }
-
-
-
+  .divTtal {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.3fr 1fr 1.2fr 1.2fr 0.52fr 0.0624fr;
+    grid-template-areas: "header header" "pres pres" "expl expl" "hist  hist" "footer footer" "copyr copyr ";
+  }
+  .TamanioA {
+    display: none;
+  }
+  .navGrids {
+    display: none;
+  }
+  .headerGrids {
+    height: auto;
+  }
+  .redes_header {
+    width: 20%;
+  }
+  .container {
+    width: auto;
+    max-width: 1200px;
+    overflow: hidden;
+  }
+  .nav {
+    --state-close: scale(0);
+    --state-hamburguer:scale(1);
+    --state-menu: translate(-100%);
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(2, max-content);
+    margin: 0;
+  }
+  .nav:target {
+    --state-menu: translate(0);
+    --state-close: scale(1);
+    --state-hamburguer:scale(0);
+  }
+  .nav__logo {
+    font-size: 2.5rem;
+    z-index: 1;
+  }
+  .nav__hamburguer,
+  .nav__close {
+    cursor: pointer;
+    grid-column: -2/-1;
+    grid-row: 1/2;
+    transition: 0.4s transform;
+  }
+  .nav__hamburguer {
+    transform: var(--state-hamburguer);
+  }
+  .nav__close {
+    transform: var(--state-close);
+  }
+  .nav__icon {
+    width: 40px;
+  }
+  .nav__links {
+    background-color: #C77DFF;
+    font-family: "Inter";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    display: grid;
+    align-content: center;
+    gap: 1.5em;
+    padding-left: 5%;
+    transform: var(--state-menu);
+    transition: 0.3s transform;
+  }
+  .nav__item {
+    list-style: none;
+  }
+  .nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  #TextPresentacion {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .p_presentacion {
+    width: 80%;
+  }
+  .imgpresentacion {
+    width: 40%;
+  }
+  #TamanioimgPrese {
+    width: 100%;
+    height: auto;
+  }
+  #TextExplicacion {
+    width: 50%;
+  }
+  .text_explicacion {
+    width: 100%;
+  }
+  #ImgExplicacion {
+    width: 40%;
+    height: auto;
+  }
+  #ImgHistoria {
+    width: 40%;
+    height: auto;
+  }
+  #TextHistoria {
+    width: 50%;
+  }
 }
-
-
 @media screen and (max-width: 500px) {
-    .divTtal{
-        width: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows:  0.05fr 1fr 1.2fr 1.2fr 0.5fr 0.01fr;
-        grid-template-areas:
-        "header"
-        "pres"
-        "expl"
-        "hist"
-        "footer"
-        "copyr";
-    }
-
-    .TamanioA{
-        display: none
-    }
-    .headerGrids{
-        display: flex;
-        height: auto;
-        width: 100%;
-        background-color: #c77dff;
-    }
-    
-    .TamanioIcono{
-        width: 40%;
-    }
-    .Icono{
-        width: 45%;
-        height: auto;
-    }
-    .redes_header{
-        display: none;
-    }
-    .navGrids{
-        display: none;
-    }
-
-
-
-    .container{
-        
-        width: 40%;
-        max-width: 1200px;
-        overflow: hidden;
-    }
-    .nav{
-        --state-close: scale(0);
-        --state-hamburguer:scale(1);
-        --state-menu: translate(-100%);
-
-        display: grid;
-        justify-content: space-between;
-        align-items: center;
-        grid-template-columns: repeat(2, max-content);
-    }
-    
-    .nav:target{
-        --state-menu: translate(0);
-        --state-close: scale(1);
-        --state-hamburguer:scale(0);
-    }
-    
-    .nav__logo{
-        font-size: 2.5rem;
-        z-index: 1;
-    }
-    
-    .nav__hamburguer, 
-    .nav__close{
-        cursor: pointer;
-        grid-column: -2/-1;
-        grid-row: 1/2;
-        transition: .4s transform;
-    }
-    
-    .nav__hamburguer{
-        transform: var(--state-hamburguer);
-    }
-    
-    .nav__close{
-        transform: var(--state-close);
-    }
-    
-    .nav__icon{
-        width: 40px;
-    }
-    
-    .nav__links{
-        background-color: #c77dff;
-        font-family: 'Inter';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 0;
-    
-        display: grid;
-        align-content: center;
-        gap: 1.5em;
-        padding-left: 5%;
-    
-        transform: var(--state-menu);
-        transition: .3s transform;
-    }
-    
-    .nav__item{
-        list-style: none;
-    }
-    
-    .nav__link{
-        color: #fff;
-        text-decoration: none;
-        font-size: 1.2rem;
-        letter-spacing: 2px;
-    }
-    
-    .PresentAbout{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        height: auto;
-    }
-
-    #TextPresentacion{
-        margin-left: 0;
-        width: 100%;
-        font-size: 18px;
-        line-height: 1.5;
-        color: white;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-    }
-    
-    .Estiloh3{
-        font-size: 40px;
-    }
-    .p_presentacion{
-        width: 86%;
-    }
-    #TamanioimgPrese{
-        width: 100%;
-        height: auto;
-    }
-    .imgpresentacion{
-        width: 65%;
-        height: auto;
-    }
-    .ExplicacionAbout{
-        display: flex;
-        flex-direction: column-reverse;
-        height: auto;
-    }
-
-    #TextExplicacion{
-        width: 100%;
-        height: 350px;
-        font-size: 18px;
-        display: flex;
-        flex-direction: column;
-        font-weight: 400;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-
-    .Estiloh3Negro {
-        font-size: 40px;
-    }
-
-    #ImgExplicacion{
-        width: 75%;    
-        height: auto;
-    }
-
-
-    .HistoriaAbout{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: auto;
-    }
-    #TextHistoria{
-        font-size: 18px;
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #ImgHistoria{
-        width: 75%;
-        height: auto;
-    }
-
-    .AllFooter{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        text-align: center;
-
-    }
-    
-    .Sobre_footer{
-        line-height: 1.3;
-    }
-
-    .Sesiones_Footer{
-        line-height: 1.3;
-    }
-
-    
-    .copyright{
-        display: flex;
-        align-items: center;
-    }
-
-
-
+  .divTtal {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 1fr 1.2fr 1.2fr 0.5fr 0.01fr;
+    grid-template-areas: "header" "pres" "expl" "hist" "footer" "copyr";
+  }
+  .TamanioA {
+    display: none;
+  }
+  .headerGrids {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #C77DFF;
+  }
+  .TamanioIcono {
+    width: 40%;
+  }
+  .Icono {
+    width: 45%;
+    height: auto;
+  }
+  .redes_header {
+    display: none;
+  }
+  .navGrids {
+    display: none;
+  }
+  .container {
+    width: 40%;
+    max-width: 1200px;
+    overflow: hidden;
+  }
+  .nav {
+    --state-close: scale(0);
+    --state-hamburguer:scale(1);
+    --state-menu: translate(-100%);
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(2, max-content);
+  }
+  .nav:target {
+    --state-menu: translate(0);
+    --state-close: scale(1);
+    --state-hamburguer:scale(0);
+  }
+  .nav__logo {
+    font-size: 2.5rem;
+    z-index: 1;
+  }
+  .nav__hamburguer,
+  .nav__close {
+    cursor: pointer;
+    grid-column: -2/-1;
+    grid-row: 1/2;
+    transition: 0.4s transform;
+  }
+  .nav__hamburguer {
+    transform: var(--state-hamburguer);
+  }
+  .nav__close {
+    transform: var(--state-close);
+  }
+  .nav__icon {
+    width: 40px;
+  }
+  .nav__links {
+    background-color: #C77DFF;
+    font-family: "Inter";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    display: grid;
+    align-content: center;
+    gap: 1.5em;
+    padding-left: 5%;
+    transform: var(--state-menu);
+    transition: 0.3s transform;
+  }
+  .nav__item {
+    list-style: none;
+  }
+  .nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  .PresentAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  #TextPresentacion {
+    margin-left: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .Estiloh3 {
+    font-size: 40px;
+  }
+  .p_presentacion {
+    width: 86%;
+  }
+  #TamanioimgPrese {
+    width: 100%;
+    height: auto;
+  }
+  .imgpresentacion {
+    width: 65%;
+    height: auto;
+  }
+  .ExplicacionAbout {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  #TextExplicacion {
+    width: 100%;
+    height: 350px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+  }
+  .Estiloh3Negro {
+    font-size: 40px;
+  }
+  #ImgExplicacion {
+    width: 75%;
+    height: auto;
+  }
+  .HistoriaAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+  }
+  #TextHistoria {
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #ImgHistoria {
+    width: 75%;
+    height: auto;
+  }
+  .AllFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .Sobre_footer {
+    line-height: 1.3;
+  }
+  .Sesiones_Footer {
+    line-height: 1.3;
+  }
+  .copyright {
+    display: flex;
+    align-items: center;
+  }
 }
-
-
 /* MEDIA SESIONES */
 @media screen and (max-width: 768px) {
-    .Div_Sesiones{
-        width: 100%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 0.3fr 0.4fr 1.2fr 1.2fr 1fr 0.0624fr;
-        grid-template-areas:
-        "header header"
-        "en en"
-        "tam tam"
-        "tinak tinak"
-        "footer footer"
-        "copyr copyr";
-    }
-
-    
-
-    .TameanaImg{
-        display: flex;
-        justify-content: space-evenly;
-        height: 360px;
-    }
-    #Tameana{
-        width: 50%;
-        align-items: center;
-    }
-    .p_tameana{
-        width: 100%;
-        text-align: center;
-    }
-    .posicionImgSesiones{
-        width: 40%;
-    }
-    #ImgTameana{
-        width: 100%;
-        height: auto;
-    }
-
-    .TinakImg{
-        height: 360px;
-    }
-
-    .Posicion_Imgses{
-        width: 40%;
-    }
-    #ImgTinak{
-        width: 100%;
-        height: auto;
-    }
-
-    #Tinak{
-        width: 50%;
-        height: 200px;
-        justify-content: end;
-    }
-    .p_tinak{
-        width: 100%;
-    }
+  .Div_Sesiones {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.3fr 0.4fr 1.2fr 1.2fr 1fr 0.0624fr;
+    grid-template-areas: "header header" "en en" "tam tam" "tinak tinak" "footer footer" "copyr copyr";
+  }
+  .TameanaImg {
+    display: flex;
+    justify-content: space-evenly;
+    height: 360px;
+  }
+  #Tameana {
+    width: 50%;
+    align-items: center;
+  }
+  #Tameana p {
+    width: 100%;
+    text-align: center;
+  }
+  .posicionImgSesiones {
+    width: 40%;
+  }
+  #ImgTameana {
+    width: 100%;
+    height: auto;
+  }
+  .TinakImg {
+    height: 360px;
+  }
+  .Posicion_Imgses {
+    width: 40%;
+  }
+  #ImgTinak {
+    width: 100%;
+    height: auto;
+  }
+  #Tinak {
+    width: 50%;
+    height: 200px;
+    justify-content: end;
+  }
+  #Tinak p {
+    width: 100%;
+  }
 }
-
 @media screen and (max-width: 500px) {
-    .Div_Sesiones{
-        width: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows:  0.05fr 0.3fr 1.2fr 1.3fr 1fr 0.01fr;
-        grid-template-areas:
-        "header"
-        "en"
-        "tam"
-        "tinak"
-        "footer"
-        "copyr";
-    }
-
-    .TameanaImg{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        height: auto;
-    }
-
-    #Tameana{
-        width: 100%;
-    }
-    .p_tameana{
-        width: 80%;
-    }
-
-    .posicionImgSesiones{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    #ImgTameana{
-        width: 62%;
-    }
-
-    .TinakImg{
-        height: auto;
-        flex-direction: column-reverse;
-        justify-content: space-evenly;
-    }
-
-    .Posicion_Imgses{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    #ImgTinak{
-        width: 60%;
-    }
-    #Tinak{
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-    }
-    #Tinak h2 {
-        color: black;
-    }
-    .p_tinak{
-        text-align: center;
-        width: 80%;
-    }
-    
+  .Div_Sesiones {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 0.3fr 1.2fr 1.3fr 1fr 0.01fr;
+    grid-template-areas: "header" "en" "tam" "tinak" "footer" "copyr";
+  }
+  .TameanaImg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+  }
+  #Tameana {
+    width: 100%;
+  }
+  #Tameana p {
+    width: 80%;
+  }
+  .posicionImgSesiones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #ImgTameana {
+    width: 62%;
+  }
+  .TinakImg {
+    height: auto;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  .Posicion_Imgses {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #ImgTinak {
+    width: 60%;
+  }
+  #Tinak {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  #Tinak h2 {
+    color: black;
+  }
+  #Tinak p {
+    text-align: center;
+    width: 80%;
+  }
 }
-
 /* MEDIA CONTACTO */
-@media screen and (max-width:768px) {
-    .Div_contacto{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 0.3fr 0.4fr 1.2fr 1fr 1fr 0.0624fr;
-        grid-template-areas:
-        "header header"
-        "conta conta"
-        "info info"
-        "gif gif"
-        "footer footer"
-        "copyr copyr";
-    }
-
-    .gif{
-        position: initial;
-        height: 350px;
-    }
-    .tamaniogif{
-        position: initial;
-        width: 47%;
-        height: 100%;
-    }
-
-
-}
-
-@media screen and (max-width: 500px) {
-    .Div_contacto{
-        width: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows:  0.05fr 0.3fr 1.2fr 1.3fr 1fr 0.01fr;
-        grid-template-areas:
-        "header"
-        "conta"
-        "info"
-        "gif"
-        "footer"
-        "copyr";
-    }
-    .contact{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .contact p {
-        width: 80%;
-    }
-
-    #EstiloF{
-        height: 100%;
-    }
-    .gif{
-        display: flex;
-        justify-content: center;
-    }
-    .tamaniogif{
-        width: 60%;
-    }
-
-
-
-
-}
-
-/* MEDIA PREG FRECUENTES */
-
 @media screen and (max-width: 768px) {
-    .Tamanio_Boots{
-        display: none;
-    }
-    .Background_preguntas {
-        width: 90%;
-        height: auto;
-    }
-
-    .accordion-button{
-        position: initial;
-    }
+  .Div_contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.3fr 0.4fr 1.2fr 1fr 1fr 0.0624fr;
+    grid-template-areas: "header header" "conta conta" "info info" "gif gif" "footer footer" "copyr copyr";
+  }
+  .gif {
+    position: initial;
+    height: 350px;
+  }
+  .tamaniogif {
+    position: initial;
+    width: 47%;
+    height: 100%;
+  }
 }
+@media screen and (max-width: 500px) {
+  .Div_contacto {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 0.3fr 1.2fr 1.3fr 1fr 0.01fr;
+    grid-template-areas: "header" "conta" "info" "gif" "footer" "copyr";
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact p {
+    width: 80%;
+  }
+  #EstiloF {
+    height: 100%;
+  }
+  .gif {
+    display: flex;
+    justify-content: center;
+  }
+  .tamaniogif {
+    width: 60%;
+  }
+}
+/* MEDIA PREG FRECUENTES */
+@media screen and (max-width: 768px) {
+  .Tamanio_Boots {
+    display: none;
+  }
+  .Background_preguntas {
+    width: 90%;
+    height: auto;
+  }
+  .accordion-button {
+    position: initial;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+.body {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-bottom: 0;
+  width: 100%;
+}
+ul li a {
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
